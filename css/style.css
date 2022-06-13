@@ -1,0 +1,41 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container-header{
+  background-color: black;
+}
+
+.container-nav-list{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list-item{
+  list-style: none;
+  margin: 5%;
+}
+
+.nav-list-item > a{
+  color: white;
+  text-decoration: none;
+}
+
+.container-text-home{
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.container-galeria{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-nosotros{
+  margin-top: 5%;
+  display: flex;
+}
