@@ -1,3 +1,13 @@
+@font-face {
+  font-family:'aldo' ;
+  src: url('../fonts/AldotheApache.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'assistant';
+  src: url('../fonts/SansitaSwashed-VariableFont_wght.ttf');
+}
 
 *{
   margin: 0;
@@ -6,33 +16,74 @@
 
 .container-header{
   background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  position: sticky;
+  top: 0px;
 }
 
+.icon-home{
+  width: 4%;
+}
+
+.container-nav{
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
 .container-nav-list{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 300px;
 }
 
 .nav-list-item{
   list-style: none;
-  margin: 5%;
 }
 
 .nav-list-item > a{
   color: white;
   text-decoration: none;
+  font-size: 17px;
+  font-family: 'assistant';
 }
 
 .container-text-home{
-  width: 200px;
+  width: 300px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  top: 30%;
 }
 
-.container-galeria{
+.container-text-home > ul {
+  width: max-content;
+  margin: auto;
+}
+
+.container-text-home > ul > li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-family: 'assistant';
+}
+
+.home-title{
+  width: max-content;
+  margin: auto;
+  font-family:'aldo';
+  font-size: 5rem;
+}
+
+.container-galery{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.item-galery{
+  flex: 1 1 30%;
+  margin: 3px;
 }
 
 .container-nosotros{
