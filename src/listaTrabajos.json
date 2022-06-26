@@ -1,0 +1,136 @@
+[
+  {
+    "titulo": "LA PAUTA - CHAINO SWING" ,
+    "anio": 2022,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "",
+    "frame": "../media/icon.png"
+  },
+  {
+    "titulo": "GOTAS DE SOL - NINPALA",
+    "anio": 2022,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/9CNY2a_v9ec",
+    "frame":"../media/Frames/Ninpala.Still2.png"
+  },
+  {
+    "titulo": "MALMO CITY - LOGAN" ,
+    "anio": 2022 ,
+    "realizacion": "POSTPRODUCCIÓN",
+    "link": "https://youtu.be/fSCo_2dL_oY",
+    "frame":"../media/Frames/Malmo.Logan.Still.png"
+  },
+  {
+    "titulo": "JUGANDO A DESPERTAR - SALVATORES",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/K1ifWhQVQVc",
+    "frame":"../media/Frames/Salvatores.Still2.png"
+  },
+  {
+    "titulo": "ESQUINA AZUL - FRANCISCO MARGUERITTE",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/P8Uij-EyAAU",
+    "frame":"../media/Frames/Esquina.Margerite.Still.png"
+  },
+  {
+    "titulo": "MARCIANO- NB" ,
+    "anio": 2021 ,
+    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/tQege5J18cI",
+    "frame": "../media/Frames/Marciano.NB.Still.png"
+  },
+  {
+    "titulo": "MATANDO LA LIGA - LOGAN",
+    "anio": 2021,
+    "realizacion": "POSTPRODUCCIÓN",
+    "link": "https://youtu.be/Nqh2GEJPguc",
+    "frame":"../media/Frames/Matandolaliga.Logan.Still.png"
+  },
+  {
+    "titulo": "EN LAS REDES - ALSET",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/YXNi5tXy-q4",
+    "frame":"../media/Frames/Enlasredes.Alset.Still.png"
+  },
+  {
+    "titulo": "LOS PAPELES - LOGAN" ,
+    "anio": 2021 ,
+    "realizacion":"POSTPRODUCCIÓN" ,
+    "link": "https://youtu.be/3RL4UP35i4E",
+    "frame":"../media/Frames/Lospapeles.Logan.Still.png"
+  },
+  {
+    "titulo": "QUEST - SMOKO",
+    "anio": 2021 ,
+    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/eyMGFshBTsI",
+    "frame":"../media/Frames/Quest.Smoko.Still.png"
+  },
+  {
+    "titulo": "AROUND THE WORLD - OCTA",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/zsfJGIgFi-Y",
+    "frame":"../media/Frames/Octa.Still.png"
+  },
+  {
+    "titulo": "LENNY - THEO",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/vGdG8yRRzl0",
+    "frame":"../media/Frames/Lenny.Theo.Still.png"
+  },
+  {
+    "titulo": "CICATRICES - FIBO" ,
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/ybkGkjULxi8",
+    "frame":"../media/Frames/Cicatrices.Fibo.Still.png"
+  },
+  {
+    "titulo": "EL VISTO - HOUSEMAN" ,
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/pz5Xl2_xXmI",
+    "frame":"../media/Frames/Elvisto.Hsmn.Still.png"
+  },
+  {
+    "titulo": "MUCHA MECHA - CONTRABANDO CREW" ,
+    "anio": 2020,
+    "realizacion": "POSTPRODUCCIÓN" ,
+    "link": "https://youtu.be/L-VFpaXmSlM",
+    "frame":"../media/Frames/Muchamecha.NB.Still.png"
+  },
+  {
+    "titulo": "METIDO - CONTRABANDO CREW",
+    "anio": 2020,
+    "realizacion": "POSTPRODUCCIÓN",
+    "link": "https://youtu.be/fwTXkhxh2hE",
+    "frame":"../media/Frames/Metido.NB.Still.png"
+  },
+  {
+    "titulo": "BLING - CONI" ,
+    "anio": 2020 ,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/k6OOLa0mGrQ",
+    "frame":"../media/Frames/Bling.Coni.Still.png"
+  },
+  {
+    "titulo": "ENCANDILO - HOUSEMAN" ,
+    "anio": 2020 ,
+    "realizacion":"REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/XwyCB1GeSNA",
+    "frame":"../media/Frames/Encandilo.Houseman.Still.png"
+  },
+  {
+    "titulo": "SESIONES PICANTES" ,
+    "anio": 2019 ,
+    "realizacion":"REALIZACIÓN INTEGRAL" ,
+    "link": "https://youtu.be/3EsSQAFpPKw",
+    "frame":"../media/Frames/Sesionespicantes.Still.png"
+  }
+]
+
