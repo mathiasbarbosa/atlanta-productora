@@ -7,11 +7,11 @@ const generarInterfaz = (arr) => {
   arr.map( el => {
     galery.innerHTML += `
                         <div class="item-galery" style="background-image:url(${el.frame})";>
-                        <a class="item-description" href="${el.link}">
+                        <a class="item-description" href="${el.link}" target="_blank">
                           <div>
-                            <p>${el.titulo}</p>
-                            <p>${el.realizacion}</p>
-                            <p>${el.anio}</p>
+                            <p class="titulo">${el.titulo}</p>
+                            <p class="realizacion">${el.realizacion}</p>
+                            <p class="fecha">${el.anio}</p>
                           </div>
                         </a>
                       </div>

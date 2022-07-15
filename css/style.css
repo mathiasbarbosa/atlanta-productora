@@ -9,11 +9,15 @@
   src: url('../fonts/SansitaSwashed-VariableFont_wght.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 *{
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: black;
+}
 .container-header{
   background-color: black;
   display: flex;
@@ -84,7 +88,6 @@
 
 .item-galery{
   flex: 1 1 30%;
-  margin: 3px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -93,6 +96,7 @@
 
 .item-description{
   display: none;
+  text-decoration: none;
 
 }
 
@@ -108,58 +112,85 @@
 .item-description div {
   width: max-content;
   margin: auto;
+  text-align: center;
 }
 
+.item-description div p {
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif; ;
+}
+
+.item-description div .titulo {
+  font-weight:800;
+}
+
+.item-description div .realizacion {
+  font-style: normal;
+}
+
+.item-description div .fecha {
+  font-style: italic;
+}
+
+/* nosotros */
 .container-nosotros{
   margin-top: 5%;
-  display: flex;
-}
-.container-nosotros-imgs{
-  display: flex;
-}
-
-.container-nosotros-imgs img{
-  margin: 0 3px;
-}
-
-.nosotros-text{
-  margin: auto 10px;
-}
-
-.container-contact{
-  margin-top: 5%;
-}
-
-.container-form{
-  width: 50%;
-  margin: 0 auto;
-}
-
-.contact-form{
   display: flex;
   flex-direction: column;
 }
 
-.contact-form button{
-  width: 30%;
-  padding: 12px;
-  margin: 10px auto;
+/* contacto */
+.container-contact{
+  margin-top: 5%;
 }
 
-.contac-input input {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-bottom: 1px solid black;
-  outline: none;
+.container-contact-wpp{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
 }
 
-.contac-input textarea {
-  width: 100%;
-  padding: 12px;
-  outline: none;
+.container-contact-wpp h3, h4 {
+  color: white;
+  font-size: 25px;
 }
 
-.contac-input{
-  margin-top: 10px;
+.container-contact-wpp > div{
+  margin: auto 5%;
+}
+
+.container-contact-button > a{
+    padding: 16px 44px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container-contact-button > a:hover{
+  background-color: #FFFFFF;
+  color: #212121; 
+}
+
+.container-contact-social{
+  padding: 100px;
+  background-color: #f8f8f8;
+}
+
+.container-contact-social > div {
+  width:  300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-contact-social > div > i {
+  font-size: 30px;
+  color: rgba(32,32,32,.6);
+}
+
+.container-contact-social > div > i:hover{
+  color: rgba(32,32,32,1);
 }
