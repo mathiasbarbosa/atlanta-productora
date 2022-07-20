@@ -19,6 +19,7 @@ body{
   background-color: black;
 }
 .container-header{
+  z-index: 1;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -28,9 +29,53 @@ body{
 }
 
 .icon-home{
-  width: 4%;
+  display: block;
+  width: 90px;
+  height: 5%;
+}
+/* menu responsive */
+.nav__checkbox {
+  display: none;
 }
 
+.nav__toggle {
+  position: absolute;
+  cursor: pointer;
+  margin: 01rem;
+  right: 0;
+  top: 0;
+}
+
+.nav__toggle svg {
+  width: 1rem;
+  fill:white;
+}
+
+.nav__toggle .close {
+  display: none;
+}
+
+.nav__toggle.close,
+.nav__toggle.menu {
+  margin-top: 0.3rem;
+}
+
+#nav__checkbox:checked ~ ul.container-nav-list > li {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+.container-nav-list li {
+  display: none;
+  list-style-type: none;
+}
 .container-nav{
   width: 400px;
   display: flex;
@@ -38,8 +83,12 @@ body{
 }
 .container-nav-list{
   display: flex;
-  justify-content: space-between;
-  width: 300px;
+  flex-direction: column;
+  gap: 2rem;
+  margin: auto;
+  align-items: center;
+
+  
 }
 
 .nav-list-item{
@@ -70,6 +119,7 @@ body{
   margin-bottom: 20px;
   font-size: 1.7rem;
   font-family: 'assistant';
+  color: #FFFFFF;
 }
 
 .home-title{
@@ -77,6 +127,7 @@ body{
   margin: auto;
   font-family:'aldo';
   font-size: 5rem;
+  color: #FFFFFF;
 }
 
 .container-galery{
@@ -160,6 +211,10 @@ body{
   margin: auto 5%;
 }
 
+.container-contact-button{
+  width:max-content ;
+}
+
 .container-contact-button > a{
     padding: 16px 44px;
     font-size: 14px;
@@ -172,6 +227,18 @@ body{
 .container-contact-button > a:hover{
   background-color: #FFFFFF;
   color: #212121; 
+}
+
+.container-contact-follow{
+  width: 200px;
+  margin: auto;
+  position: relative;
+  top: 15px;
+  background-color: #f8f8f8;
+  color: #212121; 
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 3px 3px  #2121218b;
 }
 
 .container-contact-social{
@@ -193,4 +260,82 @@ body{
 
 .container-contact-social > div > i:hover{
   color: rgba(32,32,32,1);
+}
+
+
+
+
+
+/* media queries */
+
+@media only screen and (min-width: 767px) {
+  
+  .nav__toggle {
+    display: none;
+  }
+
+  .container-nav-list {
+    flex-direction: row;
+  }
+
+  .container-nav-list li {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .icon-home{
+    display: block;
+    width: 14%;
+    height: 5%;
+  }
+  .container-text-home{
+    left: 15%;
+    color: #FFFFFF;
+  }
+  .container-galery{
+    
+    flex-direction: column;
+  }
+  .item-galery{
+  
+    flex: none;
+  }
+  .container-contact-wpp > div{
+    margin: auto;
+  }
+  .container-contact-text{
+    width: 190px;
+  }
+  .container-contact-button > a{
+    padding: 15px 2px;
+    letter-spacing: 2px
+  }
+  .container-contact-social > div {
+  width: auto;
+}
+}
+
+@media screen and (max-width:425px){
+  .container-text-home{
+    left: 10%;
+    
+  }
+}
+
+@media screen and (max-width:375px){
+  .container-text-home{
+    left: 5%;
+    
+  }
+}
+
+@media screen and (max-width:344px){
+  .container-contact-text{
+    margin: auto;
+  }
+  .container-contact-button{
+    margin-top: 30px;
+    width: 190px;
+  }
 }
