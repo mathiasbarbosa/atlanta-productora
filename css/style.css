@@ -99,14 +99,15 @@ body{
   color: white;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'assistant';
+  font-family: 'Roboto', sans-serif; 
 }
 
 .container-text-home{
-  width: 300px;
   position: absolute;
-  left: 40%;
-  top: 30%;
+  top: 30%; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .container-text-home > ul {
@@ -118,7 +119,8 @@ body{
   list-style: none;
   margin-bottom: 20px;
   font-size: 1.7rem;
-  font-family: 'assistant';
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
   color: #FFFFFF;
 }
 
@@ -127,7 +129,17 @@ body{
   margin: auto;
   font-family:'aldo';
   font-size: 5rem;
+  letter-spacing: 5px;
   color: #FFFFFF;
+}
+
+.titulo-galery{
+  color: #FFFFFF;
+  font-family:'aldo';
+  font-size: 5rem;
+  text-align: center;
+  margin: 25px;
+  letter-spacing: 5px;
 }
 
 .container-galery{
@@ -142,7 +154,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;
+  height: 50vh;
 }
 
 .item-description{
@@ -169,7 +181,7 @@ body{
 .item-description div p {
   margin: 10px;
   color: white;
-  font-family: 'Roboto', sans-serif; ;
+  font-family: 'Roboto', sans-serif; 
 }
 
 .item-description div .titulo {
@@ -253,12 +265,13 @@ body{
   justify-content: space-between;
 }
 
-.container-contact-social > div > i {
+.container-contact-social > div > a {
   font-size: 30px;
   color: rgba(32,32,32,.6);
+  text-decoration: none;
 }
 
-.container-contact-social > div > i:hover{
+.container-contact-social > div > a:hover{
   color: rgba(32,32,32,1);
 }
 
@@ -289,10 +302,6 @@ body{
     width: 14%;
     height: 5%;
   }
-  .container-text-home{
-    left: 15%;
-    color: #FFFFFF;
-  }
   .container-galery{
     
     flex-direction: column;
@@ -316,17 +325,40 @@ body{
 }
 }
 
-@media screen and (max-width:425px){
-  .container-text-home{
-    left: 10%;
-    
+@media screen and (max-width:643px) {
+  .titulo-galery{
+    font-size: 3rem;
   }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:550px){
+
   .container-text-home{
-    left: 5%;
+    top: 25%;
+  }
+
+  .container-text-home > ul > li{
+    font-size: 1rem;
+    margin-bottom: 5px;
     
+  }
+  .home-title{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:767px){
+  .container-text-home{
+    top: 30%;
+  }
+
+  .container-text-home > ul > li{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    
+  }
+  .home-title{
+    font-size: 3rem;
   }
 }
 
