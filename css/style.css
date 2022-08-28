@@ -31,8 +31,8 @@ body{
 
 .icon-home{
   display: block;
-  width: 90px;
-  height: 5%;
+  width: 60px;
+  /* height: 5%; */
 }
 /* menu responsive */
 .nav__checkbox {
@@ -103,6 +103,12 @@ body{
   font-family: 'Roboto', sans-serif; 
 }
 
+.nav-list-item > a:hover{
+  /* color: rgba(32,32,32,1); */
+  text-shadow: 5px 5px 10px #FFFFFF;
+
+}
+
 .container-text-home{
   position: absolute;
   top: 30%; 
@@ -119,10 +125,22 @@ body{
 .container-text-home > ul > li {
   list-style: none;
   margin-bottom: 20px;
+ 
+  text-align: center;
+}
+
+.container-text-home > ul > li > a {
   font-size: 1.7rem;
   font-family: 'Roboto', sans-serif; 
-  text-align: center;
+  font-weight: bold;
+  font-style: italic; 
+  text-decoration: none;
   color: #FFFFFF;
+}
+
+.container-text-home > ul > li > a:hover{
+  color: rgba(32,32,32,1);
+  text-shadow: 2px 2px 5px #FFFFFF;
 }
 
 .home-title{
@@ -132,6 +150,26 @@ body{
   font-size: 5rem;
   letter-spacing: 5px;
   color: #FFFFFF;
+}
+
+.container-contact-social-home{
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  display: flex;
+}
+
+.container-contact-social-home > .container-contact-social-items{
+  width:  300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-contact-social-home > .container-contact-social-items > a{
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .titulo-galery{
@@ -156,8 +194,22 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 50vh;
+  /* width: 100%;*/
+  height: 38vh;
 }
+.item-galery:hover{
+  animation-name: zoom-in;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+@keyframes zoom-in{
+  0% {
+  transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.05, 1.05);
+  }
+  }
 
 .item-description{
   display: none;
@@ -256,24 +308,24 @@ body{
 }
 
 .container-contact-social{
-  padding: 100px;
+  padding: 70px;
   background-color: #f8f8f8;
 }
 
-.container-contact-social > div {
+.container-contact-social > .container-contact-social-items {
   width:  300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
-.container-contact-social > div > a {
+.container-contact-social-items > a {
   font-size: 30px;
   color: rgba(32,32,32,.6);
   text-decoration: none;
 }
 
-.container-contact-social > div > a:hover{
+.container-contact-social-items > a:hover{
   color: rgba(32,32,32,1);
 }
 
@@ -309,7 +361,7 @@ body{
     flex-direction: column;
   }
   .item-galery{
-  
+    
     flex: none;
   }
   .container-contact-wpp > div{
@@ -339,13 +391,22 @@ body{
     top: 25%;
   }
 
-  .container-text-home > ul > li{
+  .container-text-home > ul > li > a{
     font-size: 1rem;
     margin-bottom: 5px;
     
   }
   .home-title{
     font-size: 2rem;
+  }
+  .container-contact-social-home{
+    top: 50%;
+  }
+  .container-contact-social-home > .container-contact-social-items{
+    width: 150px;
+  }
+  .container-contact-social-home > .container-contact-social-items > a{
+    font-size: 1.5rem;
   }
 }
 
@@ -354,13 +415,22 @@ body{
     top: 30%;
   }
 
-  .container-text-home > ul > li{
+  .container-text-home > ul > li > a{
     font-size: 1.3rem;
     margin-bottom: 5px;
     
   }
   .home-title{
     font-size: 3rem;
+  }
+  .container-contact-social-home{
+    top: 60%;
+  }
+  .container-contact-social-home > .container-contact-social-items{
+    width: 150px;
+  }
+  .container-contact-social-home > .container-contact-social-items > a{
+    font-size: 2rem;
   }
 }
 
@@ -372,4 +442,40 @@ body{
     margin-top: 30px;
     width: 190px;
   }
+}
+
+@media screen and (min-width:767px) and (max-width:900px) {
+  .item-galery{
+    
+    height: 25vh;
+  }
+}
+
+
+@media screen and (min-width:901px) and (max-width:1280px) {
+  .item-galery{
+    
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .container-contact-social > .container-contact-social-items{
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:410px) {
+  .container-text-home {
+    top: 17%;
+}
+.container-contact-social-home {
+  top: 41%;
+}
+}
+
+@media screen and (max-width:330px) {
+.container-contact-social-home {
+  display:none ;
+}
 }
