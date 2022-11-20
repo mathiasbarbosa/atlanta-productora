@@ -184,7 +184,7 @@ body{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
   
 }
 
@@ -193,23 +193,25 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  /* max-width: 450px; */
   width: 100%;
-  height: 38vh;
+  height: 38vh ;
   overflow: hidden;
 }
 
 .item-container{
   display: none;
-  width: 100%;
+   width: 100%; 
+  height: 100%;
   position: relative;
 }
 
 @keyframes zoom-in-zoom-out {
   0% {
-    transform: scale(1, 1);
+    transform: scale(1.2,1.2);
   }
   100% {
-    transform: scale(1.4, 1.4);
+    transform: scale(1.5,1.5);
   }
 }
 
@@ -218,10 +220,17 @@ body{
   overflow: hidden;
 }
 
+.item-galery:hover{
+  background-image: none !important;
+}
+
 .item-galery:hover .item-container video {
   animation-name: zoom-in-zoom-out;
   animation-duration: 2s;
   animation-timing-function: ease;  
+  animation-iteration-count:infinite
+  
+  
 }
 
 .item-description{
@@ -237,7 +246,9 @@ body{
 }
 
 .item-gif{
-  width: 100%;
+  height:38vh;
+   width: 100%; 
+  /* max-width: max-content; */
 }
 
 
@@ -515,19 +526,19 @@ body{
   }
 }
 
-@media screen and (min-width:767px) and (max-width:900px) {
+/* @media screen and (min-width:767px) and (max-width:900px) {
   .item-galery{
     
-    height: 25vh;
+    height: 28vh;
   }
-}
+} */
 
 
 @media screen and (min-width:901px) and (max-width:1280px) {
-  .item-galery{
+  /* .item-galery{
     
     height: 30vh;
-  }
+  } */
 }
 
 @media screen and (max-width:424px) {
@@ -552,4 +563,35 @@ body{
 .container-contact-social-home {
   display:none ;
 }
+}
+
+@media screen and (max-width:1350px) {
+  .item-galery{
+    max-width: 450px; 
+  }
+  }
+
+
+@media screen and (max-width:2561px) {
+.item-galery{
+  max-width: 850px; 
+}
+}
+  
+@media screen and (min-width:767px) and (max-width:1330px){
+  .item-galery{
+    flex: 1 1 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* max-width: 450px; */
+    width: 100%;
+    height: 38vh ;
+    overflow: hidden;
+  }
+  .item-gif{
+     width: 100%; 
+    /* max-width: max-content; */
+  }
+  
 }
