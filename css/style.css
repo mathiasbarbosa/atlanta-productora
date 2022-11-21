@@ -345,18 +345,47 @@ body{
 
 /* contacto */
 .container-contact{
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .container-contact-wpp{
   display: flex;
   justify-content: center;
-  padding: 100px 0;
+  /* padding: 100px 0; */
+  height: 85vh;
 }
 
-.container-contact-wpp h3, h4 {
+.container-contact-wpp h3{
   color: white;
-  font-size: 25px;
+  font-size: 3rem;
+}
+
+#text-animation{
+  color: #FFFFFF;
+  font-size: 3rem;
+  width: 0;
+  max-width: max-content;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid #FFFFFF;
+  
+  animation: typing 3s steps(17) 1s infinite normal both, blink 1s steps(1) infinite;
+  
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .container-contact-wpp > div{
@@ -364,12 +393,13 @@ body{
 }
 
 .container-contact-button{
-  width:max-content ;
+  /* width:max-content ; */
+  width: 40%;
 }
 
 .container-contact-button > a{
-    padding: 16px 44px;
-    font-size: 14px;
+    padding: 24px 44px;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
@@ -382,19 +412,21 @@ body{
 }
 
 .container-contact-follow{
-  width: 200px;
+  width: max-content;
   margin: auto;
   position: relative;
   top: 15px;
+  padding: 6px;
   background-color: #f8f8f8;
   color: #212121; 
-  font-size: 25px;
+  font-size: 2rem;
   text-align: center;
   box-shadow: 3px 3px  #2121218b;
+  z-index: 2;
 }
 
 .container-contact-social{
-  padding: 70px;
+  padding: 100px;
   background-color: #f8f8f8;
 }
 
@@ -406,7 +438,7 @@ body{
 }
 
 .container-contact-social-items > a {
-  font-size: 30px;
+  font-size: 3rem;
   color: rgba(32,32,32,.6);
   text-decoration: none;
 }
