@@ -99,7 +99,7 @@ body{
 .nav-list-item > a{
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.3rem;
   font-family: 'Roboto', sans-serif; 
 }
 
@@ -350,7 +350,9 @@ body{
 
 .container-contact-wpp{
   display: flex;
-  justify-content: center;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
   /* padding: 100px 0; */
   height: 85vh;
 }
@@ -388,22 +390,30 @@ body{
   }
 }
 
-.container-contact-wpp > div{
-  margin: auto 5%;
-}
+/* .container-contact-wpp > div{
+  margin: auto 1%;
+  width: 50%;
+} */
 
-.container-contact-button{
-  /* width:max-content ; */
-  width: 40%;
-}
+/* .container-contact-text{
+  margin: auto 5%;
+  width: 50%;
+  
+} 
+
+/* .container-contact-button{
+  margin: auto 5%;
+  width: 50%;
+  
+} */
 
 .container-contact-button > a{
     padding: 24px 44px;
     font-size: 1.5rem;
-    letter-spacing: 3px;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .container-contact-button > a:hover{
@@ -426,15 +436,15 @@ body{
 }
 
 .container-contact-social{
-  padding: 100px;
+  padding: 100px 0px;
   background-color: #f8f8f8;
 }
 
 .container-contact-social > .container-contact-social-items {
-  width:  300px;
+  width:  auto;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .container-contact-social-items > a {
@@ -468,7 +478,7 @@ body{
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .icon-home{
     display: block;
     width: 14%;
@@ -482,24 +492,38 @@ body{
     
     flex: none;
   }
-  .container-contact-wpp > div{
+  .container-contact-wpp > div > h3{
+   font-size: 2rem;
+  }
+  .container-contact-wpp{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #text-animation{
     margin: auto;
+    font-size: 2rem;
   }
   .container-contact-text{
-    width: 190px;
+    text-align: center;
   }
   .container-contact-button > a{
     padding: 15px 2px;
-    letter-spacing: 2px
+    
   }
   .container-contact-social > div {
   width: auto;
 }
   .nosotros-galery {
     flex-direction: column;
+    align-items: center;
   }
   .nosotros-galery-item{
-    width: 100%;
+    width: 200px;
+  }
+  .nosotros-galery-item > img{
+    width: 200px;
+    height: 200px;
   }
 }
 
