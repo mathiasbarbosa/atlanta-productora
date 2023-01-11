@@ -15,7 +15,7 @@ const generarInterfaz = (arr) => {
                                 <p class="fecha">${el.anio}</p>
                               </div>
                             </a>
-                            <video src="./media/gif.mp4" class="item-gif"  autoplay loop muted></video>
+                            <video src="${el.gif}" class="item-gif"  autoplay loop muted></video>
                           </div>
                       </div>
                       `
