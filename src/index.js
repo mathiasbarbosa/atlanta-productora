@@ -1,12 +1,13 @@
 
-
-
+const btnChangeColor = document.querySelector('#changeColor')
+const logoHome = document.querySelector('#logoHome')
+const iconHome = document.querySelector('#iconHome')
 
 const generarInterfaz = (arr) => {
   let galery = document.querySelector("#galery")
   arr.map( el => {
     galery.innerHTML += `
-                        <div class="item-galery"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(${el.frame})"; > 
+                        <div class="item-galery"  data-aos="zoom-in-up"  data-aos-delay="100" style="background-image:url(${el.frame})"; > 
                           <div class="item-container">
                             <a class="item-description" href="${el.link}" target="_blank">
                               <div>
@@ -23,8 +24,32 @@ const generarInterfaz = (arr) => {
 }
 
 
-fetch('./src/listaTrabajos.json')
+
+
+ document.addEventListener('DOMContentLoaded', () => {
+
+
+  fetch('./src/listaTrabajos.json')
   .then(response => response.json())
   .then(data => {
     generarInterfaz(data)
   })
+
+  btnChangeColor.addEventListener('click', () => {
+    let root = document.querySelector(':root');
+    let currentColor = getComputedStyle(root).getPropertyValue('--primary-color');
+   
+    if (currentColor.trim() == "#000000") {
+      root.style.setProperty('--primary-color', '#2d2651');
+      root.style.setProperty('--secondary-color', '#2d265199');
+      logoHome.src = './media/logoblanyAzul.svg'
+      iconHome.src = './media/logoNavblancyAzul.png'
+    } else {
+      root.style.setProperty('--primary-color', '#000000');
+      root.style.setProperty('--secondary-color', '#202020');
+      logoHome.src = './media/logonegroyblanc.svg'
+      iconHome.src = './media/logoNavnegroyBlanc.png'
+    }
+  })
+
+ })

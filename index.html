@@ -7,14 +7,14 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.css">
-
-  <title>Document</title>
+  <link rel="shortcut icon" href="./media/logoblancynegro.svg" type="image/x-icon">
+  <title>Atlanta</title>
 
 </head>
 
 <body>
     <header class="container-header">
-      <img src="./media/iconpng.png" class="icon-home" alt="">
+      <img src="./media/logoNavnegroyBlanc.png" class="icon-home" id="iconHome" alt="">
 
       <nav class="container-nav">
         <input type="checkbox"name=""id="nav__checkbox"class="nav__checkbox" />
@@ -32,21 +32,28 @@
       </svg>
       </label>
 
+
         <ul class="container-nav-list">
           <li class="nav-list-item"><a  href="#home">Home</a></li>
           <li class="nav-list-item"><a  href="#galery">Galeria</a></li>
           <li class="nav-list-item"><a  href="#nosotros">Nosotros</a></li>
           <li class="nav-list-item"><a  href="#contacto">Contacto</a></li>
+          <li class="nav-list-item">
+            <label class="switch">
+              <input type="checkbox" id="changeColor">
+              <span class="slider round"></span>
+            </label>
+          </li>
         </ul>
+       
       </nav>
     </header>
 
     <main>
       <section class="container-home" id="home">
-        <!-- <iframe width="100%" height="800"  src="https://www.youtube.com/embed/tQege5J18cI?autoplay=1&loop=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop;" allowfullscreen></iframe> -->
         <video src="./media/loopHomev1.mp4"  autoplay loop muted width="100%"></video>
         <div class="container-text-home">
-          <h1 class="home-title">ATLANTA</h1>
+          <img src="./media/logonegroyblanc.svg" alt="Logo Atlanta, Productora audiovisual" id="logoHome" >
           <ul>
             <li><a href="#galery">GALERIA</a></li>
             <li><a href="#nosotros">NOSOTROS</a></li>
@@ -69,8 +76,8 @@
         
       </section>
 
+      <h2 class="titulo-sections" id="title-mt">¿Que es Atlanta?</h2>
       <section class="container-nosotros" id="nosotros">
-        <h2 class="titulo-sections">¿Que es Atlanta?</h2>
         <div class="nosotros-container-items">
           <div class="nosotros-text">
             <h3 class="nosotros-title">Atlanta</h3>
@@ -81,35 +88,59 @@
             </p>
           </div>
           <div class="nosotros-galery">
-            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-              <img src="./media/integrantes/agus.jpg" alt="">
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(./media/integrantes/agus.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/partedeltodo_/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@partedeltodo_</p>
+                  </div>
+                </a>
+              </div>
             </div>
   
-            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-              <img src="./media/integrantes/gaston.jpg" alt="">
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250"  style="background-image:url(./media/integrantes/gaston.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/fumadorpromedio/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@fumadorpromedio</p>
+                  </div>
+                </a>
+              </div>
             </div>
   
-            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-              <img src="./media/integrantes/naza.jpg" alt="">
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(./media/integrantes/naza.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/nazagutierrez1/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@nazagutierrez1</p>
+                  </div>
+                </a>
+              </div>
             </div>
   
-            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-              <img src="./media/integrantes/nahuel.jpg" alt="">
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(./media/integrantes/nahuel.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/nahuel_rivero/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@nahuel_rivero</p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
        
       </section>
 
+      <h2 class="titulo-sections" id="title-mt">CONTACTO</h2>
       <section class="container-contact" id="contacto">
-        Contacto
         <div class="container-contact-wpp" data-aos="zoom-in-up"  data-aos-delay="250" >  
-          <div class="container-contact-text">
+          <div class="container-contact-text" data-aos="zoom-in-down"  data-aos-delay="300">
             <h3>Ya nos conoces, ahora queremos conocerte a vos</h3>
             <p id="text-animation">ENVIA UN WHATSAPP</p>
           </div>
-          <div class="container-contact-button">
-            <a href="">ENVIAR MENSAJE</a>
+          <div class="container-contact-button" data-aos="zoom-in-down"  data-aos-delay="300">
+            <a href="https://wa.me/5492494207789" target="_blank">ENVIAR MENSAJE</a>
           </div>
         </div>
        
