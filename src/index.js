@@ -40,10 +40,11 @@ const generarInterfaz = (arr) => {
     let currentColor = getComputedStyle(root).getPropertyValue('--primary-color');
    
     if (currentColor.trim() == "#000000") {
-      root.style.setProperty('--primary-color', '#2d2651');
-      root.style.setProperty('--secondary-color', '#2d265199');
+      // root.style.setProperty('--primary-color', '#010664');
+      root.style.setProperty('--primary-color', '#010436');
+      root.style.setProperty('--secondary-color', '#01054b');
       logoHome.src = './media/logoblanyAzul.svg'
-      iconHome.src = './media/logoNavblancyAzul.png'
+      iconHome.src = './media/logoblanyAzul.svg'
     } else {
       root.style.setProperty('--primary-color', '#000000');
       root.style.setProperty('--secondary-color', '#202020');
