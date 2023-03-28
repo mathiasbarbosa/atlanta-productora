@@ -49,7 +49,7 @@ const generarInterfaz = (arr) => {
       root.style.setProperty('--primary-color', '#000000');
       root.style.setProperty('--secondary-color', '#202020');
       logoHome.src = './media/logonegroyblanc.svg'
-      iconHome.src = './media/logoNavnegroyBlanc.png'
+      iconHome.src = './media/logonegroyblanc.svg'
     }
   })
 
