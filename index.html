@@ -15,28 +15,28 @@
 
 <body>
     <header class="container-header">
-      <div>
+      <!-- <div> -->
         <a href="#">
           <img src="./media/logonegroyblanc.svg" class="icon-home" id="iconHome" alt="">
         </a>
         <h1 class="nav-title">ATLANTA</h1>
-      </div>
+      <!-- </div> -->
 
       <nav class="container-nav">
-        <input type="checkbox"name=""id="nav__checkbox"class="nav__checkbox" />
-        <label for="nav__checkbox"class="nav__toggle">
-    
-        <svg class="menu"viewBox="0 0 448 512"width="100"title="bars">
-          <path
-            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
-        </svg>>
+          <input type="checkbox"name=""id="nav__checkbox"class="nav__checkbox" />
+          <label for="nav__checkbox"class="nav__toggle">
+      
+          <svg class="menu"viewBox="0 0 448 512"width="100"title="bars">
+            <path
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+          </svg>
 
-    
-      <svg class="close"viewBox="0 0 384 512"width="100"title="times">
-        <path
-          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
-      </svg>
-      </label>
+      
+        <svg class="close"viewBox="0 0 384 512"width="100"title="times">
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+        </label>
 
 
         <ul class="container-nav-list">
@@ -44,15 +44,16 @@
           <li class="nav-list-item"><a  href="#galery">GALERIA</a></li>
           <li class="nav-list-item"><a  href="#nosotros">NOSOTROS</a></li>
           <li class="nav-list-item"><a  href="#contacto">CONTACTO</a></li>
-          <li class="nav-list-item">
-            <label class="switch">
-              <input type="checkbox" id="changeColor">
-              <span class="slider round"></span>
-            </label>
-          </li>
         </ul>
-       
       </nav>
+
+      <ul id="navMobile" class="nav-list-mobile">
+        <li class="nav-list-item"><a  href="#home">HOME</a></li>
+        <li class="nav-list-item"><a  href="#galery">GALERIA</a></li>
+        <li class="nav-list-item"><a  href="#nosotros">NOSOTROS</a></li>
+        <li class="nav-list-item"><a  href="#contacto">CONTACTO</a></li>
+      </ul>
+
     </header>
 
     <main>
@@ -80,15 +81,31 @@
       </section>
       
       <h2 class="titulo-sections">GALERIA</h2>
-      <section class="container-galery" id="galery">
-        
+      <section class="container-galerys">
+
+        <ul class="nav nav-underline" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active text-white" id="galery-videos-tab" data-bs-toggle="tab" data-bs-target="#galery-videos"  role="tab" aria-controls="galery-videos" aria-selected="true">VIDEOCLIPS</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-white" id="galery-publicidad-tab" data-bs-toggle="tab" data-bs-target="#galery-publicidad"  role="tab" aria-controls="galery-publicidad" aria-selected="false">PUBLICIDAD</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active " id="galery-videos" role="tabpanel"  aria-labelledby="galery-videos-tab" tabindex="0" >    
+          </div>
+          <div class="tab-pane fade d-none" id="galery-publicidad" role="tabpanel" aria-labelledby="galery-publicidad-tab" tabindex="0">
+          </div>
+        </div>
+
       </section>
 
-      <h2 class="titulo-sections" >¿Que es Atlanta?</h2>
+      <h2 class="titulo-sections">NOSOTROS</h2>
       <section class="container-nosotros" id="nosotros">
         <div class="nosotros-container-items">
           <div class="nosotros-text">
-            <h3 class="nosotros-title">Atlanta</h3>
+            <h3 class="nosotros-title">ATLANTA</h3>
             <hr>
             <p class="nosotros-description">
               Productora de contenidos audiovisuales oriunda de Tandil, fundada y conformada en 2019 por, en ese entonces, estudiantes de cine llenos de inquietudes y entusiasmo por explorar el mundo audiovisual. Desde aquel 2019 hasta el día de hoy, Atlanta cuenta con numerosas producciones, primando los videoclips, pero también incursionando en la publicidad y próximos a estrenar nuestro primer cortometraje, el cual deseamos que sea el arranque de un largo recorrido en el mundo del cine. Nuestro objetivo es buscar siempre que cada proyecto sea único, fresco y que no lo puedas dejar de mirar.
@@ -136,20 +153,19 @@
             </div>
           </div>
         </div>
-       
       </section>
 
       <h2 class="titulo-sections">CONTACTO</h2>
       <section class="container-contact" id="contacto">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2000">
+            <div class="carousel-item active" data-bs-interval="1500">
               <img src="./media/pruebabackv2.jpg" class="d-block w-100" alt="">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="1500">
               <img src="./media/pruebabackv2.jpg" class="d-block w-100" alt=""">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="1500">
               <img src="./media/pruebabackv2.jpg" class="d-block w-100" alt="...">
             </div>
           </div>

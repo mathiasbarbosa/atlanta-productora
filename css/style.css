@@ -31,9 +31,11 @@ body{
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 20px 15px;
   position: sticky;
   top: 0px;
+  align-items: center;
 }
 
 
@@ -42,18 +44,22 @@ body{
 
 }
 
+.container-header > a {
+  width: 30%;
+}
+
 .icon-home{
   display: block;
-  width: 60px;
+  /* width: 60px; */
   margin-left: 40px;
   /* height: 5%; */
+  width: 5rem;;
 }
 
 .nav-title{
   font-family: 'aldo';
   font-size: 3rem;
   color: #FFFFFF;
-  margin-left: 40px;
 }
 
 
@@ -68,10 +74,12 @@ body{
   margin: 1rem;
   right: 1px;
   top: auto;
+  width: 34px;
+  height: 34px;
 }
 
 .nav__toggle svg {
-  width: 1rem;
+  width: 1.5rem;
   fill:#FFFFFF;
 }
 
@@ -84,7 +92,7 @@ body{
   margin-top: 0.3rem;
 }
 
-#nav__checkbox:checked ~ ul.container-nav-list > li {
+#nav__checkbox:checked ~ ul.nav-list-mobile > li {
   display: block;
 }
 
@@ -100,19 +108,31 @@ body{
   display: none;
   list-style-type: none;
 }
+.nav-list-mobile{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  background-color: #000000;
+}
+/* ! Eliminar css nemu hamburguesa */
+
+/* .navMobile{
+  display: none;
+} */
+
 .container-nav{
-  width: 400px;
+  width: 30%;
   display: flex;
   align-items: center;
-  margin-right: 30px;
+ 
 }
 .container-nav-list{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: auto;
   align-items: center;
-  margin-left: -80px;
   
 }
 
@@ -289,7 +309,19 @@ input:checked + .slider:before {
 }
 
 
-.container-galery{
+.container-galerys > ul  {
+  padding-left: 60px;
+  padding-bottom: 2rem;
+}
+.container-galerys > ul > li {
+  cursor: pointer;
+}
+.container-galerys > ul > li > a {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif; 
+}
+
+#galery-videos{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -386,6 +418,25 @@ input:checked + .slider:before {
   font-style: italic;
 }
 
+
+#galery-publicidad{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galery-publicidad-item{
+  width: 470px;
+  padding: 0 20px;
+  margin: 15px 0;
+}
+
+.carousel-item-imagen{
+  max-height: 537px;
+  min-height: 537px;
+}
+
 /* nosotros */
 .container-nosotros{
   display: flex;
@@ -404,9 +455,9 @@ input:checked + .slider:before {
 
 .nosotros-title{
   font-size: 3rem;
-  font-family: 'Roboto', sans-serif; 
+  font-family:'aldo'; 
   font-weight: bold;
-  font-style: italic; 
+  /* font-style: italic;  */
   text-decoration: none;
   color: #FFFFFF;
   margin-bottom: 10px;
@@ -630,12 +681,15 @@ footer{
 
 
 /* media queries */
-
-@media only screen and (min-width: 767px) {
-  
+@media only screen and (min-width: 1000px){
   .nav__toggle {
     display: none;
   }
+
+}
+
+@media only screen and (min-width: 767px) {
+  
 
   .container-nav-list {
     flex-direction: row;
@@ -650,8 +704,9 @@ footer{
  
   .icon-home{
     display: block;
-    width: 14%;
-    height: 5%;
+    /* width: 14%;
+    height: 5%; */
+    width: 3rem;
   }
 
   #logoHome{
@@ -729,9 +784,7 @@ footer{
   .container-contact-social-home{
     top: 50%;
   }
-  .container-contact-social-home > .container-contact-social-items{
-    width: 150px;
-  }
+  
   .container-contact-social-home > .container-contact-social-items > a{
     font-size: 1.5rem;
   }
@@ -753,9 +806,11 @@ footer{
   .container-contact-social-home{
     top: 61%;
   }
-  .container-contact-social-home > .container-contact-social-items{
-    width: 150px;
+
+  .container-contact-social-home {
+    margin-top: 40px;
   }
+
   .container-contact-social-home > .container-contact-social-items > a{
     font-size: 2rem;
   }
@@ -781,6 +836,39 @@ footer{
 }
 
 @media screen and (min-width:320px) and (max-width:1000px) {
+
+
+
+  /* .container-nav{
+    display: none;
+  } */
+  
+  .container-header{
+    padding: 5px 5px ;
+  }
+
+  .container-nav-list{
+    display: none;
+  }
+  /* .nav-list-mobile{
+    display: block;
+  } */
+
+
+  /* .container-nav{
+    width: 50px;
+  } */
+  .icon-home{
+    /* width: 100%;
+    height: 100%; */
+    width: 3rem;
+    margin-left: 0;
+  }
+
+  .nav-title{
+    margin-left: 0;
+  }
+
   .nosotros-container-items{
     flex-direction: column;
   }
@@ -797,12 +885,18 @@ footer{
 }
 
 
+@media screen and (min-width: 766px) and (max-width: 975px) {
+  .container-nav{
+    margin-right: 2.8rem;
+  }
+}
+
 @media screen and (min-width:767px) and (max-width:1100px) {
   .container-text-home{
     top: 23%;
   }
   .container-contact-social-home{
-    top: 75%;
+    top: 80%;
   }
 }
 
@@ -814,6 +908,13 @@ footer{
     top: 85%;
   }
 }
+
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  .container-header{
+    margin: 20px 5px;
+  }
+  }
 
 @media screen and (max-width:424px) {
 
@@ -852,6 +953,18 @@ footer{
 }
 }
 
+@media screen and (min-width:320px) and (max-width:420px) {
+  .nav-title{
+    font-size: 2.3rem;
+  }
+  .container-nav{
+    width: 20px;
+  }
+  .container-header > a {
+    width: 20%;
+  }
+  }
+
 @media screen and (max-width:1350px) {
   .item-galery{
     max-width: 450px; 
@@ -866,6 +979,16 @@ footer{
 }
   
 @media screen and (min-width:767px) and (max-width:1330px){
+
+  .container-nav ul > li > a{
+    font-size: 12px;
+  }
+
+  .container-nav-list{
+    gap: 10px;
+    justify-content: space-between;
+  }
+
   .item-galery{
     flex: 1 1 50%;
     background-size: cover;
@@ -877,7 +1000,7 @@ footer{
     overflow: hidden;
   }
   .item-gif{
-     width: 100%; 
+    width: 100%; 
     /* max-width: max-content; */
   }
   .container-contact-button{
@@ -911,5 +1034,45 @@ footer{
 
   .container-contact-button > a {
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-contact-wpp{
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container-contact-wpp{
+    top: 15%;
+  }
+  .container-contact-social-items-contact{
+    top: 80%;
+  }
+}
+
+
+@media screen and (min-width: 485px) and (max-width: 768px) {
+  #logoHome {
+    width: 12%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .nosotros-description{
+    font-size: 1.3rem;
+  }
+  .container-contact-text > h3{
+    font-size: 1.8;
+  }
+  .container-contact-text > p{
+    font-size: 2.5rem;
+  }
+  .container-contact-social-items-contact{
+    top:62%;
+  }
+  .container-contact-social-items-contact > a{
+    font-size: 2rem;
   }
 }
