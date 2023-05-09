@@ -42,7 +42,6 @@ const generarInterfazPubli = (arr) => {
     let carouselInner = document.createElement('div')
     carouselInner.id = `carousel_inner_${i}`
     carouselInner.classList.add('carousel-inner')
-    //TODO Los botones para slide e img publi
 
     let count = 0;
     // crea cada uno de los items del carousel
@@ -62,9 +61,7 @@ const generarInterfazPubli = (arr) => {
       let carouselCaption = document.createElement('div')
       carouselCaption.classList.add("carousel-caption", "d-none", "d-md-block")
       let h5 = document.createElement('h5')
-      // h5.textContent = item.trabajosP
       let p = document.createElement('p')
-      // p.textContent = item.descripcion
 
       carouselItem.append(img)
       carouselCaption.append(h5)
