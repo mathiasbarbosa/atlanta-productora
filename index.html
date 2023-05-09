@@ -6,47 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
-
-  <title>Document</title>
+  <link rel="shortcut icon" href="./media/logoblancynegro.svg" type="image/x-icon">
+  <title>Atlanta</title>
 
 </head>
 
 <body>
     <header class="container-header">
-      <img src="./media/iconpng.png" class="icon-home" alt="">
+      <!-- <div> -->
+        <a href="#">
+          <img src="./media/logonegroyblanc.svg" class="icon-home" id="iconHome" alt="logo de Atlanta">
+        </a>
+        <h1 class="nav-title">ATLANTA</h1>
+      <!-- </div> -->
 
       <nav class="container-nav">
-        <input type="checkbox"name=""id="nav__checkbox"class="nav__checkbox" />
-        <label for="nav__checkbox"class="nav__toggle">
-    
-        <svg class="menu"viewBox="0 0 448 512"width="100"title="bars">
-          <path
-            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
-        </svg>>
+          <input type="checkbox"name=""id="nav__checkbox"class="nav__checkbox" />
+          <label for="nav__checkbox"class="nav__toggle">
+      
+          <svg class="menu"viewBox="0 0 448 512"width="100"title="bars">
+            <path
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+          </svg>
 
-    
-      <svg class="close"viewBox="0 0 384 512"width="100"title="times">
-        <path
-          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
-      </svg>
-      </label>
+      
+        <svg class="close"viewBox="0 0 384 512"width="100"title="times">
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+        </label>
+
 
         <ul class="container-nav-list">
-          <li class="nav-list-item"><a  href="#home">Home</a></li>
-          <li class="nav-list-item"><a  href="#galery">Galeria</a></li>
-          <li class="nav-list-item"><a  href="#nosotros">Nosotros</a></li>
-          <li class="nav-list-item"><a  href="#contacto">Contacto</a></li>
+          <li class="nav-list-item"><a  href="#home">HOME</a></li>
+          <li class="nav-list-item"><a  href="#galery">GALERIA</a></li>
+          <li class="nav-list-item"><a  href="#nosotros">NOSOTROS</a></li>
+          <li class="nav-list-item"><a  href="#contacto">CONTACTO</a></li>
         </ul>
       </nav>
+
+      <ul id="navMobile" class="nav-list-mobile">
+        <li class="nav-list-item"><a  href="#home">HOME</a></li>
+        <li class="nav-list-item"><a  href="#galery">GALERIA</a></li>
+        <li class="nav-list-item"><a  href="#nosotros">NOSOTROS</a></li>
+        <li class="nav-list-item"><a  href="#contacto">CONTACTO</a></li>
+      </ul>
+
     </header>
 
     <main>
       <section class="container-home" id="home">
-        <!-- <iframe width="100%" height="800"  src="https://www.youtube.com/embed/tQege5J18cI?autoplay=1&loop=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop;" allowfullscreen></iframe> -->
         <video src="./media/loopHomev1.mp4"  autoplay loop muted width="100%"></video>
         <div class="container-text-home">
-          <h1 class="home-title">ATLANTA</h1>
+          <img src="./media/logonegroyblanc.svg" alt="Logo Atlanta, Productora audiovisual" id="logoHome" >
           <ul>
             <li><a href="#galery">GALERIA</a></li>
             <li><a href="#nosotros">NOSOTROS</a></li>
@@ -57,77 +71,155 @@
           <div class="container-contact-social-home" >
             <div  class="container-contact-social-items">
               <a href="https://www.instagram.com/atlanta.av/" target="_blank"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.youtube.com/channel/UCN-XsOXEym98Aax1hurJbxQ" target="_blank"><i class="bi bi-youtube"></i></a>
               <a href="https://www.facebook.com/Atlanta-Audiovisual-113471170828426" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/Atlanta_Av" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.tiktok.com/@atlanta.audiovisual" target="_blank"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.youtube.com/channel/UCN-XsOXEym98Aax1hurJbxQ" target="_blank"><i class="bi bi-youtube"></i></a>
             </div>
-          </div >
+          </div>
       
       </section>
       
-      <h1 class="titulo-sections">GALERIA</h1>
-      <section class="container-galery" id="galery">
-        
+      <h2 class="titulo-sections">GALERIA</h2>
+      <section class="container-galerys">
+
+        <ul class="nav nav-underline" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active text-white" id="galery-videos-tab" data-bs-toggle="tab" data-bs-target="#galery-videos"  role="tab" aria-controls="galery-videos" aria-selected="true">VIDEOCLIPS</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-white" id="galery-publicidad-tab" data-bs-toggle="tab" data-bs-target="#galery-publicidad"  role="tab" aria-controls="galery-publicidad" aria-selected="false">PUBLICIDAD</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active " id="galery-videos" role="tabpanel"  aria-labelledby="galery-videos-tab" tabindex="0" >    
+          </div>
+          <div class="tab-pane fade d-none" id="galery-publicidad" role="tabpanel" aria-labelledby="galery-publicidad-tab" tabindex="0">
+          </div>
+        </div>
+
       </section>
 
+      <h2 class="titulo-sections">NOSOTROS</h2>
       <section class="container-nosotros" id="nosotros">
-        <h2 class="titulo-sections">¿Que es Atlanta?</h2>
-        <div class="nosotros-container-text">
-          <h3 class="nosotros-title">Atlanta</h3>
-          <hr>
-          <p class="nosotros-description">
-            Productora audiovisual radicada en Tandil, fundadada y conformada en 2019 por un grupo de estudiantes de cine en búsqueda de explorar diferentes lenguajes audiovisuales
-            Nuestra intención es dejar nuestro sello en cada uno de nuestros proyectos y el fin de aportar al crecimiento de la industria tandilense
-          </p>
-        </div>
-        <div class="nosotros-galery">
-          <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-            <img src="./media/agus.jpg" alt="">
+        <div class="nosotros-container-items">
+          <div class="nosotros-text">
+            <h3 class="nosotros-title">ATLANTA</h3>
+            <hr>
+            <p class="nosotros-description">
+              Productora de contenidos audiovisuales oriunda de Tandil, fundada y conformada en 2019 por, en ese entonces, estudiantes de cine llenos de inquietudes y entusiasmo por explorar el mundo audiovisual. Desde aquel 2019 hasta el día de hoy, Atlanta cuenta con numerosas producciones, primando los videoclips, pero también incursionando en la publicidad y próximos a estrenar nuestro primer cortometraje, el cual deseamos que sea el arranque de un largo recorrido en el mundo del cine. Nuestro objetivo es buscar siempre que cada proyecto sea único, fresco y que no lo puedas dejar de mirar.
+            </p>
           </div>
-
-          <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-            <img src="./media/gaston.jpg" alt="">
-          </div>
-
-          <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-            <img src="./media/naza.jpg" alt="">
-          </div>
-
-          <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250">
-            <img src="./media/nahuel.jpg" alt="">
+          <div class="nosotros-galery">
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(./media/integrantes/agus.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/partedeltodo_/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@partedeltodo_</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250"  style="background-image:url(./media/integrantes/gaston.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/gastonbarbosaa/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@gastonbarbosaa</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(./media/integrantes/naza.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/nazagutierrez1/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@nazagutierrez1</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+            <div class="nosotros-galery-item"  data-aos="zoom-in-up"  data-aos-delay="250" style="background-image:url(./media/integrantes/nahuel.webp)">
+              <div class="item-container">
+                <a href="https://www.instagram.com/nahuel_rivero/" target="_blank" class="item-description">
+                  <div>
+                    <p class="titulo">@nahuel_rivero</p>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+      <h2 class="titulo-sections">CONTACTO</h2>
       <section class="container-contact" id="contacto">
-        Contacto
-        <div class="container-contact-wpp">  
-          <div class="container-contact-text">
-            <h3>Te interesan nuestros servicios</h3>
-            <h4>ENVIA UN WHATSAPP</h4>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_1.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_2.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_4.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_3.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_5.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_6.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_7.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_8.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_9.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_10.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            <div class="carousel-item active" data-bs-interval="1500">
+              <img src="./media/carouselContacto/carouselContacto_11.webp" class="d-block w-100" alt="slide de carousel contacto">
+            </div>
+            
           </div>
-          <div class="container-contact-button">
-            <a href="">ENVIAR MENSAJE</a>
-          </div>
-        </div>
-        
-        <div class="container-contact-follow">
-          Seguinos ⬇ 
         </div>
 
-        <div class="container-contact-social">
-          <div  class="container-contact-social-items">
-            <a href="https://www.instagram.com/atlanta.av/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCN-XsOXEym98Aax1hurJbxQ" target="_blank"><i class="bi bi-youtube"></i></a>
-            <a href="https://www.facebook.com/Atlanta-Audiovisual-113471170828426" target="_blank"><i class="bi bi-facebook"></i></a>
+        <div class="container-contact-wpp" data-aos="zoom-in-up"  data-aos-delay="250" >  
+          <div class="container-contact-text" data-aos="zoom-in-down"  data-aos-delay="300">
+            <h3>CONTACTANOS</h3>
+            <!-- <p id="text-animation">ENVIA UN MAIL</p> -->
+            <p>ENVIA UN MAIL</p>
           </div>
+          <div class="container-contact-button" data-aos="zoom-in-down"  data-aos-delay="300">
+            <a href="mailto:audiovisualatlanta@gmail.com" target="_blank">ENVIAR MAIL</a>
+          </div>
+        </div>
+        <div  class="container-contact-social-items-contact" data-aos="zoom-in-down"  data-aos-delay="300">
+          <a href="https://www.instagram.com/atlanta.av/" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/Atlanta-Audiovisual-113471170828426" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/Atlanta_Av" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.tiktok.com/@atlanta.audiovisual" target="_blank"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.youtube.com/channel/UCN-XsOXEym98Aax1hurJbxQ" target="_blank"><i class="bi bi-youtube"></i></a>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>@atlanta todos los derechos reservados</p>
+      <p>Coded by: @programadorpromedio_ 2023 - Atlanta Audiovisual todos los derechos reservados </p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
