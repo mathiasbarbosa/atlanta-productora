@@ -1002,8 +1002,12 @@ footer{
 }
 
 @media screen and (max-width: 480px){
+  .nosotros-title{
+    margin-left: 15px;
+  }
   .nosotros-description{
     font-size: 1.3rem;
+    margin-left: 15px;
   }
   .container-contact-text > h3{
     font-size: 1.8;

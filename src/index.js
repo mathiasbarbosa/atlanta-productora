@@ -4,9 +4,13 @@ const navMobile = document.querySelector('#navMobile')
 
 const generarInterfaz = (arr) => {
   let galery = document.querySelector("#galery-videos")
+  let fragment = document.createDocumentFragment()
   arr.map( el => {
-    galery.innerHTML += `
-                        <div class="item-galery"  data-aos="zoom-in-up"  data-aos-delay="100" style="background-image:url(${el.frame})"; > 
+    let div = document.createElement('div')
+    div.classList.add('item-galery')
+    div.style.backgroundImage = `url(${el.frame})`
+    div.setAttribute('data-aos','zoom-in-up')
+    div.innerHTML += `
                           <div class="item-container">
                             <a class="item-description" href="${el.link}" target="_blank">
                               <div>
@@ -15,15 +19,18 @@ const generarInterfaz = (arr) => {
                                 <p class="fecha">${el.anio}</p>
                               </div>
                             </a>
-                            <video src="${el.gif}" class="item-gif"  autoplay loop muted></video>
+                            <video src="${el.gif}" class="item-gif" loading="lazy" autoplay loop muted></video>
                           </div>
-                      </div>
                       `
+    fragment.append(div)
   })
+
+  galery.append(fragment)
 }
 
 const generarInterfazPubli = (arr) => {
   const containerGalery = document.querySelector('#galery-publicidad')
+  let fragment = document.createDocumentFragment()
 
   arr.map((item, i) => {
 
@@ -115,9 +122,9 @@ const generarInterfazPubli = (arr) => {
     buttonNext.append(spanNextText)
     carouselSlide.append(buttonNext)
 
-    containerGalery.append(containerPubli)
+    fragment.append(containerPubli)
   })
-
+  containerGalery.append(fragment)
 }
 
 
