@@ -514,6 +514,9 @@ input:checked + .slider:before {
   position: relative;
   margin-bottom: 10px;
 }
+.imgContactMobile{
+  display: none;
+}
 
 .container-contact > div > div.carousel-inner > div.carousel-item > img {
   min-height: 100vh;
@@ -648,7 +651,6 @@ footer{
   .nav__toggle {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 767px) {
@@ -807,6 +809,10 @@ footer{
   .icon-home{
     width: 3rem;
     margin-left: 0;
+  }
+
+  .nav-list-item > a{
+    font-size: 1.3rem;
   }
 
   .nav-title{
@@ -1020,6 +1026,13 @@ footer{
   }
   .container-contact-social-items-contact > a{
     font-size: 2rem;
+  }
+  .imgContactMobile{
+    display: block;
+    height: 80vh;
+  }
+  #carouselExampleSlidesOnly{
+    display: none;
   }
 }
 
