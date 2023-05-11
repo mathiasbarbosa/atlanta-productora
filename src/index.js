@@ -10,6 +10,9 @@ const generarInterfaz = (arr) => {
     div.classList.add('item-galery')
     div.style.backgroundImage = `url(${el.frame})`
     div.setAttribute('data-aos','zoom-in-up')
+                            
+  let video = window.innerWidth > 500 ? `<video src="${el.gif}" class="item-gif" loading="lazy" autoplay loop muted></video>` : ''
+
     div.innerHTML += `
                           <div class="item-container">
                             <a class="item-description" href="${el.link}" target="_blank">
@@ -19,7 +22,7 @@ const generarInterfaz = (arr) => {
                                 <p class="fecha">${el.anio}</p>
                               </div>
                             </a>
-                            <video src="${el.gif}" class="item-gif" loading="lazy" autoplay loop muted></video>
+                            ${video}
                           </div>
                       `
     fragment.append(div)
@@ -55,7 +58,6 @@ const generarInterfazPubli = (arr) => {
     for (const itemPubliMulti of item.multimedia) {
       let button = document.createElement('button')
       button.setAttribute('data-bs-target', `#${ carouselSlide.id}`)
-      console.log(itemPubliMulti);
       button.setAttribute('data-bs-slide-to', count)
       button.setAttribute('aria-label', `Slide ${count}`)
       carouselIndicators.append(button)
