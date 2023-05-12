@@ -4,104 +4,104 @@
     "anio": 2023,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/U3RlrEMp22g ",
-    "frame": "./media/Frames/Voligoma.Still.webp",
-    "gif": "./media/gifs/LOOPVoligoma1.mp4"
+    "frame": "https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/Voligoma.Still_egt7sa.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900680/Atlanta/gifs/LOOPVoligoma1_mda2uu.mp4"
   },
   {
     "titulo": "CICLOS - SALVATORES" ,
     "anio": 2022,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/_9SeohqoRkk",
-    "frame": "./media/Frames/ciclos.still.webp",
-    "gif": "./media/gifs/LOOPCiclos.mp4"
+    "frame": "https://res.cloudinary.com/dionldpu0/image/upload/v1683899943/Atlanta/frames/ciclos.still_ibl3wj.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900648/Atlanta/gifs/LOOPCiclos_rzlxza.mp4"
   },
   {
     "titulo": "TIBURONES - BLACK" ,
     "anio": 2022,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/mH7mAkEmurQ",
-    "frame": "./media/Frames/tiburones.still1.webp",
-    "gif": "./media/gifs/LOOPTiburones.mp4"
+    "frame": "https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/tiburones.still1_rsopr1.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900594/Atlanta/gifs/LOOPTiburones_ttv82q.mp4"
   },
   {
     "titulo": "LA PAUTA - CHAINO SWING" ,
     "anio": 2022,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/A_VHi4lB7H8",
-    "frame": "./media/Frames/Chaino.Still.webp",
-    "gif": "./media/gifs/Chino.mp4"
+    "frame": "https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/Chaino.Still_e8oenp.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900516/Atlanta/gifs/Chino_uotofa.mp4"
   },
   {
     "titulo": "GOTAS DE SOL - NINPALA",
     "anio": 2022,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/9CNY2a_v9ec",
-    "frame":"./media/Frames/Ninpala.Still2.webp",
-    "gif": "./media/gifs/GotasDeSol.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899940/Atlanta/frames/Ninpala.Still2_orrsls.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900534/Atlanta/gifs/GotasDeSol_efzbza.mp4"
   },
   {
     "titulo": "MALMO CITY - LOGAN" ,
     "anio": 2022 ,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/fSCo_2dL_oY",
-    "frame":"./media/Frames/Malmo.Logan.Still.webp",
-    "gif": "./media/gifs/Malmo.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899939/Atlanta/frames/Malmo.Logan.Still_lfzcnc.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900580/Atlanta/gifs/Malmo_aoujtm.mp4"
   },
   {
     "titulo": "JUGANDO A DESPERTAR - SALVATORES",
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/K1ifWhQVQVc",
-    "frame":"./media/Frames/Salvatores.Still2.webp",
-    "gif": "./media/gifs/Salvatores.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899941/Atlanta/frames/Salvatores.Still2_pwtr1v.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900659/Atlanta/gifs/Salvatores_tf7roi.mp4"
   },
   {
     "titulo": "ESQUINA AZUL - FRANCISCO MARGUERITTE",
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/P8Uij-EyAAU",
-    "frame":"./media/Frames/Esquina.Margerite.Still.webp",
-    "gif": "./media/gifs/EsquinaAzul.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899944/Atlanta/frames/Esquina.Margerite.Still_k5gwms.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900522/Atlanta/gifs/EsquinaAzul_ors9jz.mp4"
   },
   {
     "titulo": "MARCIANO- NB" ,
     "anio": 2021 ,
     "realizacion": "REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/tQege5J18cI",
-    "frame": "./media/Frames/Marciano.NB.Still.webp",
-    "gif": "./media/gifs/nb.mp4"
+    "frame": "https://res.cloudinary.com/dionldpu0/image/upload/v1683899939/Atlanta/frames/Marciano.NB.Still_et7w7l.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900517/Atlanta/gifs/nb_mu8mpm.mp4"
   },
   {
     "titulo": "MATANDO LA LIGA - LOGAN",
     "anio": 2021,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/Nqh2GEJPguc",
-    "frame":"./media/Frames/Matandolaliga.Logan.Still.webp",
-    "gif": "./media/gifs/MatandoLaLiga.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899940/Atlanta/frames/Matandolaliga.Logan.Still_il9gec.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900502/Atlanta/gifs/MatandoLaLiga_wonntd.mp4"
   },
   {
     "titulo": "EN LAS REDES - ALSET",
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/YXNi5tXy-q4",
-    "frame":"./media/Frames/Enlasredes.Alset.Still.webp",
-    "gif": "./media/gifs/EnLasRedes.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899943/Atlanta/frames/Enlasredes.Alset.Still_zor0ve.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900625/Atlanta/gifs/EnLasRedes_mdvdf5.mp4"
   },
   {
     "titulo": "LOS PAPELES - LOGAN" ,
     "anio": 2021 ,
     "realizacion":"POSTPRODUCCIÓN" ,
     "link": "https://www.youtube.com/watch?v=eNJrblM85HA",
-    "frame":"./media/Frames/Lospapeles.Logan.Still.webp",
-    "gif": "./media/gifs/LosPapeles.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899939/Atlanta/frames/Lospapeles.Logan.Still_clixk4.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900529/Atlanta/gifs/LosPapeles_uhm4ub.mp4"
   },
   {
     "titulo": "QUEST - SMOKO",
     "anio": 2021 ,
     "realizacion": "REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/eyMGFshBTsI",
-    "frame":"./media/Frames/Quest.Smoko.Still.webp",
-    "gif": "./media/gifs/Smoko.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899941/Atlanta/frames/Quest.Smoko.Still_tb8kkk.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900555/Atlanta/gifs/Smoko_p2tkh6.mp4"
   },
   {
     "titulo": "AROUND THE WORLD - OCTA",
@@ -109,54 +109,54 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/zsfJGIgFi-Y",
     "frame":"./media/Frames/Octa.Still.webp",
-    "gif": "./media/gifs/Octa.mp4"
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900526/Atlanta/gifs/Octa_ze95kx.mp4"
   },
   {
     "titulo": "LENNY - THEO",
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/vGdG8yRRzl0",
-    "frame":"./media/Frames/Lenny.Theo.Still.webp",
-    "gif": "./media/gifs/Lenny.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899939/Atlanta/frames/Lenny.Theo.Still_vvg2a8.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900640/Atlanta/gifs/Lenny_yo7dyc.mp4"
   },
   {
     "titulo": "CICATRICES - FIBO" ,
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/ybkGkjULxi8",
-    "frame":"./media/Frames/Cicatrices.Fibo.Still.webp",
-    "gif": "./media/gifs/Cicatrices.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/Cicatrices.Fibo.Still_mlhukz.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900622/Atlanta/gifs/Cicatrices_mknbnr.mp4"
   },
   {
     "titulo": "EL VISTO - HOUSEMAN" ,
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/pz5Xl2_xXmI",
-    "frame":"./media/Frames/Elvisto.Hsmn.Still.webp",
-    "gif": "./media/gifs/ElVisto.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/Elvisto.Hsmn.Still_1_pnmgrx.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900622/Atlanta/gifs/ElVisto_nvuxtz.mp4"
   },
   {
     "titulo": "MUCHA MECHA - CONTRABANDO CREW" ,
     "anio": 2020,
     "realizacion": "POSTPRODUCCIÓN" ,
     "link": "https://youtu.be/L-VFpaXmSlM",
-    "frame":"./media/Frames/Muchamecha.NB.Still.webp",
-    "gif": "./media/gifs/MuchaMecha.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899940/Atlanta/frames/Muchamecha.NB.Still_kiakcu.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900586/Atlanta/gifs/MuchaMecha_jogt17.mp4"
   },
   {
     "titulo": "METIDO - CONTRABANDO CREW",
     "anio": 2020,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/fwTXkhxh2hE",
-    "frame":"./media/Frames/Metido.NB.Still.webp",
-    "gif": "./media/gifs/Metido.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899940/Atlanta/frames/Metido.NB.Still_oilxih.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900510/Atlanta/gifs/Metido_crivci.mp4"
   },
   {
     "titulo": "BLING - CONI" ,
     "anio": 2020 ,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/k6OOLa0mGrQ",
-    "frame":"./media/Frames/Bling.Coni.Still.webp",
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/Bling.Coni.Still_ltig8y.webp",
     "gif": "./media/gifs/Coni.mp4"
   },
   {
@@ -164,17 +164,16 @@
     "anio": 2020 ,
     "realizacion":"REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/XwyCB1GeSNA",
-    "frame":"./media/Frames/Encandilo.Houseman.Still.webp",
-    "gif": "./media/gifs/Encandilo.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899943/Atlanta/frames/Encandilo.Houseman.Still_b3hngf.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900534/Atlanta/gifs/Coni_iamoty.mp4"
   },
   {
     "titulo": "SESIONES PICANTES" ,
     "anio": 2019 ,
     "realizacion":"REALIZACIÓN INTEGRAL" ,
     "link": "https://youtu.be/3EsSQAFpPKw",
-    "frame":"./media/Frames/Sesionespicantes.Still.webp",
-    "gif": "./media/gifs/SesionesPicantes.mp4"
+    "frame":"https://res.cloudinary.com/dionldpu0/image/upload/v1683899942/Atlanta/frames/Sesionespicantes.Still_grkzsq.webp",
+    "gif": "https://res.cloudinary.com/dionldpu0/video/upload/v1683900555/Atlanta/gifs/SesionesPicantes_hmxa7r.mp4"
   }
- 
 ]
 

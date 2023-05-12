@@ -64,15 +64,22 @@ const generarInterfazPubli = (arr) => {
 
       let carouselItem = document.createElement('div')
       carouselItem.classList.add('carousel-item')
-      let img = document.createElement('img')
-      img.classList.add('d-block', 'w-100', 'carousel-item-imagen')
-      img.setAttribute('src',itemPubliMulti )
+      if (!itemPubliMulti.includes('webm')) {
+        let img = document.createElement('img')
+        img.classList.add('d-block', 'w-100', 'carousel-item-imagen')
+        img.setAttribute('src',itemPubliMulti )
+        carouselItem.append(img)
+      }else{
+        carouselItem.innerHTML += `<video src="${itemPubliMulti}" class="carousel-item-imagen d-block"  autoplay loop muted width="430px"></video>`
+
+      }
+      
       let carouselCaption = document.createElement('div')
       carouselCaption.classList.add("carousel-caption", "d-none", "d-md-block")
       let h5 = document.createElement('h5')
       let p = document.createElement('p')
 
-      carouselItem.append(img)
+    
       carouselCaption.append(h5)
       carouselCaption.append(p)
       carouselItem.append(carouselCaption)

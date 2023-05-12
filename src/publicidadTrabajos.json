@@ -3,101 +3,101 @@
         "trabajosP": "ESTACIÓN VICTORIA",
         "descripcion": "Creación de contenido (fotos y reels) para la difusión en redes sociales del restaurante",
         "multimedia": [
-            "./media/trabajosP/estacionVictoria/CUBAFEDD23.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED11.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED15.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED20.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED9.webp",
-            "./media/trabajosP/estacionVictoria/Reel1Final_HD.gif",
-            "./media/trabajosP/estacionVictoria/Reel2Final_HD.gif",
-            "./media/trabajosP/estacionVictoria/Reelcubafinal4.gif"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904196/Atlanta/trabajosP/estacionVictoria/CUBAFEDD23_diomov.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904196/Atlanta/trabajosP/estacionVictoria/CUBAFEED15_d0v7mc.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904196/Atlanta/trabajosP/estacionVictoria/CUBAFEED20_lbzzqj.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904196/Atlanta/trabajosP/estacionVictoria/CUBAFEED11_m8owoy.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904197/Atlanta/trabajosP/estacionVictoria/CUBAFEED9_m5qh7l.webp",
+            "https://res.cloudinary.com/dionldpu0/video/upload/v1683904214/Atlanta/trabajosP/estacionVictoria/Reel2Final_HD_qvdghs.webm",
+            "https://res.cloudinary.com/dionldpu0/video/upload/v1683904219/Atlanta/trabajosP/estacionVictoria/Reel1Final_HD_yztzjf.webm",
+            "https://res.cloudinary.com/dionldpu0/video/upload/v1683904220/Atlanta/trabajosP/estacionVictoria/Reelcubafinal4_evt5ki.webm"
         ]
     },
     {
         "trabajosP":"ELEVEN FLOW",
         "descripcion":"Book de fotos para presentar la nueva colección de gafas en las redes sociales.",
         "multimedia": [
-            "./media/trabajosP/elevenFlow/fedefeed.webp",
-            "./media/trabajosP/elevenFlow/FeedAGOS2.webp",
-            "./media/trabajosP/elevenFlow/FeedAITI.webp",
-            "./media/trabajosP/elevenFlow/Pipifeed.webp",
-            "./media/trabajosP/elevenFlow/zapas.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904211/Atlanta/trabajosP/elevenFlow/fedefeed_fttjs6.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904220/Atlanta/trabajosP/elevenFlow/FeedAITI_rokv9e.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904220/Atlanta/trabajosP/elevenFlow/Pipifeed_jwwoeu.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904197/Atlanta/trabajosP/elevenFlow/FeedAGOS2_rbeyms.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904197/Atlanta/trabajosP/elevenFlow/zapas_cq16hn.webp"
         ]
     },
     {
         "trabajosP":"INSTABURGER",
         "descripcion":"Book de fotos para presentar el menú y su posterior difusión en redes sociales",
         "multimedia": [
-            "./media/trabajosP/instaburger/INSTA15.webp",
-            "./media/trabajosP/instaburger/INSTA17.webp",
-            "./media/trabajosP/instaburger/INSTA20.webp",
-            "./media/trabajosP/instaburger/INSTA3.webp",
-            "./media/trabajosP/instaburger/INSTAb7.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904199/Atlanta/trabajosP/instaburger/INSTA15_p5zqft.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904199/Atlanta/trabajosP/instaburger/INSTAb7_umtd4e.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904198/Atlanta/trabajosP/instaburger/INSTA20_kw6dqv.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904198/Atlanta/trabajosP/instaburger/INSTA3_nra3j2.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904198/Atlanta/trabajosP/instaburger/INSTA17_apgeos.webp"
         ]
     },
     {
         "trabajosP":"NICO PADILLA",
         "descripcion":"Book de fotos para las redes del artista y posterior conformado de EPK.",
         "multimedia": [
-            "./media/trabajosP/nico_padilla/Nico1-10.webp",
-            "./media/trabajosP/nico_padilla/Nico1-16.webp",
-            "./media/trabajosP/nico_padilla/Nico1-39.webp",
-            "./media/trabajosP/nico_padilla/Nico1-4.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904207/Atlanta/trabajosP/nico_padilla/Nico1-39_ijswaa.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904204/Atlanta/trabajosP/nico_padilla/Nico1-10_bh6hed.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904204/Atlanta/trabajosP/nico_padilla/Nico1-16_nabcij.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904204/Atlanta/trabajosP/nico_padilla/Nico1-4_m2qyi1.webp"
         ]
     },
     {
         "trabajosP":"PROSPERO RAÚL CANTÓN",
         "descripcion":"Book de fotos para la presentación de su nuevo disco 'Ebbo', presentando el concepto del mismo en redes sociales y flyers de eventos del artista.",
         "multimedia": [
-            "./media/trabajosP/prospero/prospero1-8171.webp",
-            "./media/trabajosP/prospero/prospero12c-04239.webp",
-            "./media/trabajosP/prospero/prospero2-8155.webp",
-            "./media/trabajosP/prospero/prospero3-8142.webp",
-            "./media/trabajosP/prospero/prospero9-8114.webp",
-            "./media/trabajosP/prospero/prosperox-8027.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904205/Atlanta/trabajosP/prospero/prosperox-8027_qtpzsh.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904205/Atlanta/trabajosP/prospero/prospero3-8142_l22n6k.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904205/Atlanta/trabajosP/prospero/prospero9-8114_ivp60t.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904204/Atlanta/trabajosP/prospero/prospero2-8155_tdmfss.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904204/Atlanta/trabajosP/prospero/prospero12c-04239_fsxhhk.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904203/Atlanta/trabajosP/prospero/prospero1-8171_pqh8va.webp"
         ]
     },
     {
         "trabajosP":"MARIO GONZÁLEZ",
         "descripcion":"Book de fotos para las redes sociales del artista.",
         "multimedia": [
-            "./media/trabajosP/marioGonzalez/2.webp",
-            "./media/trabajosP/marioGonzalez/22.webp",
-            "./media/trabajosP/marioGonzalez/4.webp",
-            "./media/trabajosP/marioGonzalez/6.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904201/Atlanta/trabajosP/marioGonzalez/6_atpwex.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904201/Atlanta/trabajosP/marioGonzalez/4_wrgjvp.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904200/Atlanta/trabajosP/marioGonzalez/2_lpq4h0.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904200/Atlanta/trabajosP/marioGonzalez/22_n9tger.webp"
         ]
     },
-   
+
     {
         "trabajosP":"VENENO",
         "descripcion":"Book y diseño de tapa para el nuevo disco del artista",
         "multimedia": [
-            "./media/trabajosP/veneno/2.webp",
-            "./media/trabajosP/veneno/3.webp",
-            "./media/trabajosP/veneno/4.webp",
-            "./media/trabajosP/veneno/9.webp",
-            "./media/trabajosP/veneno/Facuext-11.webp",
-            "./media/trabajosP/veneno/Facuext-5.webp",
-            "./media/trabajosP/veneno/Facuext-8.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904219/Atlanta/trabajosP/veneno/3_gwlpyy.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904216/Atlanta/trabajosP/veneno/2_h4e3ql.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904211/Atlanta/trabajosP/veneno/4_w4vpzk.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904207/Atlanta/trabajosP/veneno/9_n4ldd5.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904211/Atlanta/trabajosP/veneno/Facuext-8_zkt8z6.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904211/Atlanta/trabajosP/veneno/Facuext-5_i0zynh.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904208/Atlanta/trabajosP/veneno/Facuext-11_xiokag.webp"
         ]
     },
     {
         "trabajosP":"BL FREESTYLE",
         "descripcion":"Cobertura y grabación del evento.",
         "multimedia": [
-            "./media/trabajosP/blfreestyle/reelblFINAL.gif",
-            "./media/trabajosP/blfreestyle/secuencia01_2.gif"
+            "https://res.cloudinary.com/dionldpu0/video/upload/v1683904214/Atlanta/trabajosP/blfreestyle/reelblFINAL_wqcrlb.webm",
+            "https://res.cloudinary.com/dionldpu0/video/upload/v1683904211/Atlanta/trabajosP/blfreestyle/secuencia01_2_hgtygg.webm"
         ]
     },
     {
         "trabajosP":"NAZA GUTIERREZ",
         "descripcion":"Book de fotos personal",
         "multimedia": [
-            "./media/trabajosP/naza_guitierrez/nazabook1.webp",
-            "./media/trabajosP/naza_guitierrez/nazabook2.webp",
-            "./media/trabajosP/naza_guitierrez/nazapan3fin.webp",
-            "./media/trabajosP/naza_guitierrez/nazasuperfinal2.webp",
-            "./media/trabajosP/naza_guitierrez/nazasuperfinal3.webp"
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904201/Atlanta/trabajosP/naza_guitierrez/nazasuperfinal3_x6u6s3.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904201/Atlanta/trabajosP/naza_guitierrez/nazasuperfinal2_iirx9q.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904201/Atlanta/trabajosP/naza_guitierrez/nazabook1_twcyaw.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904201/Atlanta/trabajosP/naza_guitierrez/nazapan3fin_hncbw0.webp",
+            "https://res.cloudinary.com/dionldpu0/image/upload/v1683904200/Atlanta/trabajosP/naza_guitierrez/nazabook2_nlpshq.webp"
         ]
     }
 ]
