@@ -1,6 +1,9 @@
 const tabs = document.querySelectorAll('.nav-link');
 const navCheck = document.querySelector('.nav__checkbox')
 const navMobile = document.querySelector('#navMobile')
+const header = document.querySelector('#header')
+const referenceShowNav = document.querySelector('#referenceShowNav')
+let viewport = window.visualViewport.width
 
 const generarInterfaz = (arr) => {
   let galery = document.querySelector("#galery-videos")
@@ -136,8 +139,43 @@ const generarInterfazPubli = (arr) => {
   containerGalery.append(fragment)
 }
 
+// const showWsp = () => {
+//   let scrollPosition = window.scrollY
+
+//   let referencePosition = referenceShowWsp.offsetTop - 570
+//   console.log(referencePosition);
+
+//   // let showPosition = referencePosition + referenceShowWsp.offsetHeight
+//   // console.log(showPosition);
+
+//   if(scrollPosition >= referencePosition){
+//     wspIcon.classList.remove('hidden')
+//   }else{
+//     wspIcon.classList.add('hidden')
+//   }
+// }
+
+const showNav = () => {
+  let scrollPosition = window.scrollY
+
+  let referencePosition = referenceShowNav.offsetTop
+
+  let showPosition = referencePosition + referenceShowNav.offsetHeight
 
 
+  if (scrollPosition >= showPosition) {
+    header.classList.remove('hidden')
+    // header.style.display = 'none'
+  }else{
+    header.classList.add('hidden')
+    // header.style.display = 'flex'
+  }
+}
+
+if (viewport >= 1000) {
+  header.classList.add('hidden')
+  window.addEventListener('scroll', showNav) 
+}
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -154,14 +192,12 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => generarInterfazPubli(data))
 
   tabs.forEach(tab => {
-    console.log(tab);
     tab.addEventListener('click', (e) => {
       e.preventDefault();
       
       // Hide all tabs
       const tabContents = document.querySelectorAll('.tab-pane');
       tabContents.forEach(content => {
-        console.log(content);
         content.classList.remove('active', 'show');
         content.classList.add('d-none')
       });
@@ -182,5 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
       navMobile.style.display = 'none'
       }
   })
+
 
 })

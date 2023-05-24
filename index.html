@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="container-header">
+    <header class="container-header" id="header">
       <!-- <div> -->
         <a href="#">
           <img src="./media/logonegroyblanc.svg" class="icon-home" id="iconHome" alt="logo de Atlanta">
@@ -57,8 +57,9 @@
     </header>
 
     <main>
+      <!-- <a href="" target="_blank" class="wsp-icon"><i class="bi bi-whatsapp"></i></a> -->
       <section class="container-home" id="home">
-        <video src="https://res.cloudinary.com/dionldpu0/video/upload/v1683649453/loopHomev1Wb_wvparq.webm"  autoplay loop muted width="100%"></video>
+        <video src="./media/reelpaginafinal.webm"  autoplay loop muted width="100%"></video>
         <div class="container-text-home">
           <img src="./media/logonegroyblanc.svg" alt="Logo Atlanta, Productora audiovisual" id="logoHome" >
           <ul>
@@ -80,7 +81,7 @@
       
       </section>
       
-      <h2 class="titulo-sections">GALERIA</h2>
+      <h2 class="titulo-sections" id="referenceShowNav">GALERIA</h2>
       <section class="container-galerys">
 
         <ul class="nav nav-underline" id="myTab" role="tablist">
@@ -157,43 +158,51 @@
 
       <h2 class="titulo-sections">CONTACTO</h2>
       <section class="container-contact" id="contacto">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselContact" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_1.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_2.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_4.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_3.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_5.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_6.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_7.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_8.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_9.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_10.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
-            <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-item active" data-bs-interval="1800">
               <img src="./media/carouselContacto/carouselContacto_11.webp" class="d-block w-100" alt="slide de carousel contacto">
             </div>
             
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselContact" style="z-index: 3;" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselContact" style="z-index: 3;" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
         <img src="./media/carouselContacto/carouselContacto_11.webp" class="w-100 imgContactMobile" alt="slide de carousel contacto">
 
@@ -201,10 +210,10 @@
           <div class="container-contact-text" data-aos="zoom-in-down">
             <h3>CONTACTANOS</h3>
             <!-- <p id="text-animation">ENVIA UN MAIL</p> -->
-            <p>ENVIA UN MAIL</p>
+            <p>ENVIA UN MENSAJE</p>
           </div>
           <div class="container-contact-button" data-aos="zoom-in-down">
-            <a href="mailto:audiovisualatlanta@gmail.com" target="_blank">ENVIAR MAIL</a>
+            <a href="https://wa.me/message/3GNLG7OVBZAUN1" target="_blank">ENVIAR WHATSAPP</a>
           </div>
         </div>
         <div  class="container-contact-social-items-contact" data-aos="zoom-in-down">
@@ -226,6 +235,19 @@
       AOS.init();
     </script>
     <script src="./src/index.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/src/service-worker.js')
+            .then(registration => {
+              console.log('Service Worker registrado con éxito:', registration);
+            })
+            .catch(error => {
+              console.log('Error al registrar Service Worker:', error);
+            });
+        });
+      }
+    </script>
 </body>
 
 </html>
