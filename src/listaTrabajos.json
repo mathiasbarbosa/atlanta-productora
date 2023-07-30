@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "LINDO DÍA - HOUSEMAN" ,
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/Q8Kz4fDjOds",
+    "frame": "./media/Frames/lindo.dia.still.webp",
+    "gif": "./media/gifs/Lindo.Dia.webm"
+  },
+  {
     "titulo": "VOLIGOMA - ALSET" ,
     "anio": 2023,
     "realizacion": "REALIZACIÓN INTEGRAL",
@@ -171,8 +179,8 @@
     "titulo": "SESIONES PICANTES" ,
     "anio": 2019 ,
     "realizacion":"REALIZACIÓN INTEGRAL" ,
-    "link": "https://youtu.be/3EsSQAFpPKw",
-    "frame":"./media/Frames/Sesionespicantes.Still.webp",
+    "link": "https://youtu.be/MU-_bIpCr6g",
+    "frame":"./media/Frames/sesiones.picantes.still.webp",
     "gif": "./media/gifs/SesionesPicantes.webm"
   }
 ]

@@ -448,6 +448,7 @@ input:checked + .slider:before {
 .carousel-item-imagen{
   max-height: 537px;
   min-height: 537px;
+  object-fit: cover;
 }
 
 /* nosotros */
@@ -539,6 +540,7 @@ input:checked + .slider:before {
 }
 .imgContactMobile{
   display: none;
+  object-fit: cover;
 }
 
 .container-contact > div > div.carousel-inner > div.carousel-item > img {
@@ -1129,8 +1131,8 @@ footer{
 
 } 
 
-@media screen and (min-width: 1330px){
+/* @media screen and (min-width: 1330px){
   #galery-videos > div:last-child{
     flex: 0 1 30%;
   }
-}
+} */
