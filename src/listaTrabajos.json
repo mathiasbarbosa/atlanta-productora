@@ -1,6 +1,38 @@
 [
   {
-    "titulo": "LINDO DÍA - HOUSEMAN" ,
+    "titulo": "LA COMPLICADA - VENENOSOS ROLLS",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/_fKV38JJGB4?si=zqnvnerkGdVFfqvB",
+    "frame": "./media/Frames/Lacomplicada.still.webp",
+    "gif": "./media/gifs/LaComplicada.webm"
+  },
+  {
+    "titulo": "EL CAFÉ DE LA VIDA - LAS CARMELITAS",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/zuymYvT3egE?si=cmDtzokZV1Cr8iZq",
+    "frame": "./media/Frames/Elcafedelavida.still.webp",
+    "gif": "./media/gifs/Elcafedelavida.webm"
+  },
+  {
+    "titulo": "(NUEVO EP) - FRAN MARGUERITTE",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtube.com/playlist?list=PLyF9AUtL3ZGnOgE4U1R_ekcDlpF6ldLaw&si=KtP0zO9hMYi9v_Bp",
+    "frame": "./media/Frames/EPFranMargueritte.Still.webp",
+    "gif": "./media/gifs/EPFranMargueritte.webm"
+  },
+  {
+    "titulo": "CAFECITO - JAIEL",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/YIV26-mujCE?si=XyYFLo58BM3X_Att",
+    "frame": "./media/Frames/Cafecito.Still.webp",
+    "gif": "./media/gifs/Cafecito.webm"
+  },
+  {
+    "titulo": "LINDO DÍA - HOUSEMAN",
     "anio": 2023,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/Q8Kz4fDjOds",
@@ -8,7 +40,7 @@
     "gif": "./media/gifs/Lindo.Dia.webm"
   },
   {
-    "titulo": "VOLIGOMA - ALSET" ,
+    "titulo": "VOLIGOMA - ALSET",
     "anio": 2023,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/U3RlrEMp22g ",
@@ -16,7 +48,7 @@
     "gif": "./media/gifs/LOOPVoligoma1.webm"
   },
   {
-    "titulo": "CICLOS - SALVATORES" ,
+    "titulo": "CICLOS - SALVATORES",
     "anio": 2022,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/_9SeohqoRkk",
@@ -24,7 +56,7 @@
     "gif": "./media/gifs/LOOPCiclos.webm"
   },
   {
-    "titulo": "TIBURONES - BLACK" ,
+    "titulo": "TIBURONES - BLACK",
     "anio": 2022,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/mH7mAkEmurQ",
@@ -32,7 +64,7 @@
     "gif": "./media/gifs/LOOPTiburones.webm"
   },
   {
-    "titulo": "LA PAUTA - CHAINO SWING" ,
+    "titulo": "LA PAUTA - CHAINO SWING",
     "anio": 2022,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/A_VHi4lB7H8",
@@ -44,23 +76,23 @@
     "anio": 2022,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/9CNY2a_v9ec",
-    "frame":"./media/Frames/Ninpala.Still2.webp",
+    "frame": "./media/Frames/Ninpala.Still2.webp",
     "gif": "./media/gifs/GotasDeSol.webm"
   },
   {
-    "titulo": "MALMO CITY - LOGAN" ,
-    "anio": 2022 ,
+    "titulo": "MALMO CITY - LOGAN",
+    "anio": 2022,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/fSCo_2dL_oY",
-    "frame":"./media/Frames/Malmo.Logan.Still.webp",
+    "frame": "./media/Frames/Malmo.Logan.Still.webp",
     "gif": "./media/gifs/Malmo.webm"
   },
   {
     "titulo": "JUGANDO A DESPERTAR - SALVATORES",
     "anio": 2021,
-    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/K1ifWhQVQVc",
-    "frame":"./media/Frames/Salvatores.Still2.webp",
+    "frame": "./media/Frames/Salvatores.Still2.webp",
     "gif": "./media/gifs/Salvatores.webm"
   },
   {
@@ -68,13 +100,13 @@
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/P8Uij-EyAAU",
-    "frame":"./media/Frames/Esquina.Margerite.Still.webp",
+    "frame": "./media/Frames/Esquina.Margerite.Still.webp",
     "gif": "./media/gifs/EsquinaAzul.webm"
   },
   {
-    "titulo": "MARCIANO- NB" ,
-    "anio": 2021 ,
-    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "titulo": "MARCIANO- NB",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/tQege5J18cI",
     "frame": "./media/Frames/Marciano.NB.Still.webp",
     "gif": "./media/gifs/nb.webm"
@@ -84,31 +116,31 @@
     "anio": 2021,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/Nqh2GEJPguc",
-    "frame":"./media/Frames/Matandolaliga.Logan.Still.webp",
+    "frame": "./media/Frames/Matandolaliga.Logan.Still.webp",
     "gif": "./media/gifs/MatandoLaLiga.webm"
   },
   {
     "titulo": "EN LAS REDES - ALSET",
     "anio": 2021,
-    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/YXNi5tXy-q4",
-    "frame":"./media/Frames/Enlasredes.Alset.Still.webp",
+    "frame": "./media/Frames/Enlasredes.Alset.Still.webp",
     "gif": "./media/gifs/EnLasRedes.webm"
   },
   {
-    "titulo": "LOS PAPELES - LOGAN" ,
-    "anio": 2021 ,
-    "realizacion":"POSTPRODUCCIÓN" ,
+    "titulo": "LOS PAPELES - LOGAN",
+    "anio": 2021,
+    "realizacion": "POSTPRODUCCIÓN",
     "link": "https://www.youtube.com/watch?v=eNJrblM85HA",
-    "frame":"./media/Frames/Lospapeles.Logan.Still.webp",
+    "frame": "./media/Frames/Lospapeles.Logan.Still.webp",
     "gif": "./media/gifs/LosPapeles.webm"
   },
   {
     "titulo": "QUEST - SMOKO",
-    "anio": 2021 ,
-    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/eyMGFshBTsI",
-    "frame":"./media/Frames/Quest.Smoko.Still.webp",
+    "frame": "./media/Frames/Quest.Smoko.Still.webp",
     "gif": "./media/gifs/Smoko.webm"
   },
   {
@@ -116,39 +148,39 @@
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/zsfJGIgFi-Y",
-    "frame":"./media/Frames/Octa.Still.webp",
+    "frame": "./media/Frames/Octa.Still.webp",
     "gif": "./media/gifs/Octa.webm"
   },
   {
     "titulo": "LENNY - THEO",
     "anio": 2021,
-    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/vGdG8yRRzl0",
-    "frame":"./media/Frames/Lenny.Theo.Still.webp",
+    "frame": "./media/Frames/Lenny.Theo.Still.webp",
     "gif": "./media/gifs/Lenny.webm"
   },
   {
-    "titulo": "CICATRICES - FIBO" ,
+    "titulo": "CICATRICES - FIBO",
     "anio": 2021,
-    "realizacion": "REALIZACIÓN INTEGRAL" ,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/ybkGkjULxi8",
-    "frame":"./media/Frames/Cicatrices.Fibo.Still.webp",
+    "frame": "./media/Frames/Cicatrices.Fibo.Still.webp",
     "gif": "./media/gifs/Cicatrices.webm"
   },
   {
-    "titulo": "EL VISTO - HOUSEMAN" ,
+    "titulo": "EL VISTO - HOUSEMAN",
     "anio": 2021,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/pz5Xl2_xXmI",
-    "frame":"./media/Frames/Elvisto.Hsmn.Still.webp",
+    "frame": "./media/Frames/Elvisto.Hsmn.Still.webp",
     "gif": "./media/gifs/ElVisto.webm"
   },
   {
-    "titulo": "MUCHA MECHA - CONTRABANDO CREW" ,
+    "titulo": "MUCHA MECHA - CONTRABANDO CREW",
     "anio": 2020,
-    "realizacion": "POSTPRODUCCIÓN" ,
+    "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/L-VFpaXmSlM",
-    "frame":"./media/Frames/Muchamecha.NB.Still.webp",
+    "frame": "./media/Frames/Muchamecha.NB.Still.webp",
     "gif": "./media/gifs/MuchaMecha.webm"
   },
   {
@@ -156,31 +188,31 @@
     "anio": 2020,
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/fwTXkhxh2hE",
-    "frame":"./media/Frames/Metido.NB.Still.webp",
+    "frame": "./media/Frames/Metido.NB.Still.webp",
     "gif": "./media/gifs/Metido.webm"
   },
   {
-    "titulo": "BLING - CONI" ,
-    "anio": 2020 ,
+    "titulo": "BLING - CONI",
+    "anio": 2020,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/k6OOLa0mGrQ",
-    "frame":"./media/Frames/Bling.Coni.Still.webp",
+    "frame": "./media/Frames/Bling.Coni.Still.webp",
     "gif": "./media/gifs/Coni.webm"
   },
   {
-    "titulo": "ENCANDILO - HOUSEMAN" ,
-    "anio": 2020 ,
-    "realizacion":"REALIZACIÓN INTEGRAL" ,
+    "titulo": "ENCANDILO - HOUSEMAN",
+    "anio": 2020,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/XwyCB1GeSNA",
-    "frame":"./media/Frames/Encandilo.Houseman.Still.webp",
+    "frame": "./media/Frames/Encandilo.Houseman.Still.webp",
     "gif": "./media/gifs/Encandilo.webm"
   },
   {
-    "titulo": "SESIONES PICANTES" ,
-    "anio": 2019 ,
-    "realizacion":"REALIZACIÓN INTEGRAL" ,
+    "titulo": "SESIONES PICANTES",
+    "anio": 2019,
+    "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/MU-_bIpCr6g",
-    "frame":"./media/Frames/sesiones.picantes.still.webp",
+    "frame": "./media/Frames/sesiones.picantes.still.webp",
     "gif": "./media/gifs/SesionesPicantes.webm"
   }
 ]

@@ -1,99 +1,98 @@
 [
-    {
-        "trabajosP": "ESTACIÓN VICTORIA",
-        "descripcion": "Creación de contenido (fotos y reels) para la difusión en redes sociales del restaurante",
-        "multimedia": [
-            "./media/trabajosP/estacionVictoria/CUBAFEDD23.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED11.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED15.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED20.webp",
-            "./media/trabajosP/estacionVictoria/CUBAFEED9.webp",
-            "./media/trabajosP/estacionVictoria/Reel1Final_HD.webm",
-            "./media/trabajosP/estacionVictoria/Reel2Final_HD.webm",
-            "./media/trabajosP/estacionVictoria/Reelcubafinal4.webm"
-        ]
-    },
-    {
-        "trabajosP":"ELEVEN FLOW",
-        "descripcion":"Book de fotos para presentar la nueva colección de gafas en las redes sociales.",
-        "multimedia": [
-            "./media/trabajosP/elevenFlow/fedefeed.webp",
-            "./media/trabajosP/elevenFlow/FeedAGOS2.webp",
-            "./media/trabajosP/elevenFlow/FeedAITI.webp",
-            "./media/trabajosP/elevenFlow/Pipifeed.webp",
-            "./media/trabajosP/elevenFlow/zapas.webp"
-        ]
-    },
-    {
-        "trabajosP":"INSTABURGER",
-        "descripcion":"Book de fotos para presentar el menú y su posterior difusión en redes sociales",
-        "multimedia": [
-            "./media/trabajosP/instaburger/INSTA15.webp",
-            "./media/trabajosP/instaburger/INSTA17.webp",
-            "./media/trabajosP/instaburger/INSTA20.webp",
-            "./media/trabajosP/instaburger/INSTA3.webp",
-            "./media/trabajosP/instaburger/INSTAb7.webp"
-        ]
-    },
-    {
-        "trabajosP":"NICO PADILLA",
-        "descripcion":"Book de fotos para las redes del artista y posterior conformado de EPK.",
-        "multimedia": [
-            "./media/trabajosP/nico_padilla/Nico1-10.webp",
-            "./media/trabajosP/nico_padilla/Nico1-16.webp",
-            "./media/trabajosP/nico_padilla/Nico1-4.webp"
-        ]
-    },
-    {
-        "trabajosP":"PROSPERO RAÚL CANTÓN",
-        "descripcion":"Book de fotos para la presentación de su nuevo disco 'Ebbo', presentando el concepto del mismo en redes sociales y flyers de eventos del artista.",
-        "multimedia": [
-            "./media/trabajosP/prospero/prospero1-8171.webp",
-            "./media/trabajosP/prospero/prospero12c-04239.webp",
-            "./media/trabajosP/prospero/prospero2-8155.webp",
-            "./media/trabajosP/prospero/prospero3-8142.webp",
-            "./media/trabajosP/prospero/prospero9-8114.webp",
-            "./media/trabajosP/prospero/prosperox-8027.webp"
-        ]
-    },
-    {
-        "trabajosP":"MARIO GONZÁLEZ",
-        "descripcion":"Book de fotos para las redes sociales del artista.",
-        "multimedia": [
-            "./media/trabajosP/marioGonzalez/2.webp",
-            "./media/trabajosP/marioGonzalez/22.webp",
-            "./media/trabajosP/marioGonzalez/4.webp",
-            "./media/trabajosP/marioGonzalez/6.webp"
-        ]
-    },
-
-    {
-        "trabajosP":"VENENO",
-        "descripcion":"Book y diseño de tapa para el nuevo disco del artista",
-        "multimedia": [
-            "./media/trabajosP/veneno/2.webp",
-            "./media/trabajosP/veneno/3.webp",
-            "./media/trabajosP/veneno/4.webp",
-            "./media/trabajosP/veneno/9.webp"
-        ]
-    },
-    {
-        "trabajosP":"BL FREESTYLE",
-        "descripcion":"Cobertura y grabación del evento.",
-        "multimedia": [
-            "./media/trabajosP/blfreestyle/reelblFINAL.webm",
-            "./media/trabajosP/blfreestyle/secuencia01_2.webm"
-        ]
-    },
-    {
-        "trabajosP":"NAZA GUTIERREZ",
-        "descripcion":"Book de fotos personal",
-        "multimedia": [
-            "./media/trabajosP/naza_guitierrez/nazabook1.webp",
-            "./media/trabajosP/naza_guitierrez/nazabook2.webp",
-            "./media/trabajosP/naza_guitierrez/nazapan3fin.webp",
-            "./media/trabajosP/naza_guitierrez/nazasuperfinal2.webp",
-            "./media/trabajosP/naza_guitierrez/nazasuperfinal3.webp"
-        ]
-    }
+  {
+    "trabajosP": "ESTACIÓN VICTORIA",
+    "descripcion": "Creación de contenido (fotos y reels) para la difusión en redes sociales del restaurante",
+    "multimedia": [
+      "./media/trabajosP/estacionVictoria/CUBAFEED15.webp",
+      "./media/trabajosP/estacionVictoria/CUBAFEDD23.webp",
+      "./media/trabajosP/estacionVictoria/CUBAFEED11.webp",
+      "./media/trabajosP/estacionVictoria/CUBAFEED20.webp",
+      "./media/trabajosP/estacionVictoria/CUBAFEED9.webp",
+      "./media/trabajosP/estacionVictoria/Reel1Final_HD.webm",
+      "./media/trabajosP/estacionVictoria/Reel2Final_HD.webm",
+      "./media/trabajosP/estacionVictoria/Reelcubafinal4.webm"
+    ]
+  },
+  {
+    "trabajosP": "ELEVEN FLOW",
+    "descripcion": "Book de fotos para presentar la nueva colección de gafas en las redes sociales.",
+    "multimedia": [
+      "./media/trabajosP/elevenFlow/fedefeed.webp",
+      "./media/trabajosP/elevenFlow/FeedAGOS2.webp",
+      "./media/trabajosP/elevenFlow/FeedAITI.webp",
+      "./media/trabajosP/elevenFlow/Pipifeed.webp",
+      "./media/trabajosP/elevenFlow/zapas.webp"
+    ]
+  },
+  {
+    "trabajosP": "INSTABURGER",
+    "descripcion": "Book de fotos para presentar el menú y su posterior difusión en redes sociales",
+    "multimedia": [
+      "./media/trabajosP/instaburger/INSTA15.webp",
+      "./media/trabajosP/instaburger/INSTA17.webp",
+      "./media/trabajosP/instaburger/INSTA20.webp",
+      "./media/trabajosP/instaburger/INSTA3.webp",
+      "./media/trabajosP/instaburger/INSTAb7.webp"
+    ]
+  },
+  {
+    "trabajosP": "NICO PADILLA",
+    "descripcion": "Book de fotos para las redes del artista y posterior conformado de EPK.",
+    "multimedia": [
+      "./media/trabajosP/nico_padilla/Nico1-10.webp",
+      "./media/trabajosP/nico_padilla/Nico1-16.webp",
+      "./media/trabajosP/nico_padilla/Nico1-4.webp"
+    ]
+  },
+  {
+    "trabajosP": "PROSPERO RAÚL CANTÓN",
+    "descripcion": "Book de fotos para la presentación de su nuevo disco 'Ebbo', presentando el concepto del mismo en redes sociales y flyers de eventos del artista.",
+    "multimedia": [
+      "./media/trabajosP/prospero/prospero1-8171.webp",
+      "./media/trabajosP/prospero/prospero12c-04239.webp",
+      "./media/trabajosP/prospero/prospero2-8155.webp",
+      "./media/trabajosP/prospero/prospero3-8142.webp",
+      "./media/trabajosP/prospero/prospero9-8114.webp",
+      "./media/trabajosP/prospero/prosperox-8027.webp"
+    ]
+  },
+  {
+    "trabajosP": "MARIO GONZÁLEZ",
+    "descripcion": "Book de fotos para las redes sociales del artista.",
+    "multimedia": [
+      "./media/trabajosP/marioGonzalez/2.webp",
+      "./media/trabajosP/marioGonzalez/22.webp",
+      "./media/trabajosP/marioGonzalez/4.webp",
+      "./media/trabajosP/marioGonzalez/6.webp"
+    ]
+  },
+  {
+    "trabajosP": "VENENO",
+    "descripcion": "Book y diseño de tapa para el nuevo disco del artista",
+    "multimedia": [
+      "./media/trabajosP/veneno/2.webp",
+      "./media/trabajosP/veneno/3.webp",
+      "./media/trabajosP/veneno/4.webp",
+      "./media/trabajosP/veneno/9.webp"
+    ]
+  },
+  {
+    "trabajosP": "BL FREESTYLE",
+    "descripcion": "Cobertura y grabación del evento.",
+    "multimedia": [
+      "./media/trabajosP/blfreestyle/reelblFINAL.webm",
+      "./media/trabajosP/blfreestyle/secuencia01_2.webm"
+    ]
+  },
+  {
+    "trabajosP": "NAZA GUTIERREZ",
+    "descripcion": "Book de fotos personal",
+    "multimedia": [
+      "./media/trabajosP/naza_guitierrez/nazabook1.webp",
+      "./media/trabajosP/naza_guitierrez/nazabook2.webp",
+      "./media/trabajosP/naza_guitierrez/nazapan3fin.webp",
+      "./media/trabajosP/naza_guitierrez/nazasuperfinal2.webp",
+      "./media/trabajosP/naza_guitierrez/nazasuperfinal3.webp"
+    ]
+  }
 ]
