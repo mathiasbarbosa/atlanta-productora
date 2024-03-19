@@ -1,5 +1,31 @@
 [
   {
+    "titulo": "SALVATORES EP - SALVATORES",
+    "anio": 2024,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "",
+    "frame": "./media/Frames/SalvatoresEP.Still.webp",
+    "gif": "./media/gifs/SalvatoresEP.webm",
+    "proximamente": true
+  },
+  {
+    "titulo": "PASTEL EP - JULY JAMES",
+    "anio": 2024,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "",
+    "frame": "./media/Frames/JulyJames.still.webp",
+    "gif": "./media/gifs/JulyJames.webm",
+    "proximamente": true
+  },
+  {
+    "titulo": "VISTA DE ÁGUILA - NEVEN Y UHRY27",
+    "anio": 2024,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/O63WQ1-T8Ek?si=A5jTGwzMmeHB1elj",
+    "frame": "./media/Frames/NEVEN.Still.webp",
+    "gif": "./media/gifs/neven.webm"
+  },
+  {
     "titulo": "INOCENTE-BONE",
     "anio": 2024,
     "realizacion": "REALIZACIÓN INTEGRAL",
