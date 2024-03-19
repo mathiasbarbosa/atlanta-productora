@@ -15,10 +15,11 @@ const generarInterfaz = (arr) => {
     div.setAttribute('data-aos', 'zoom-in-up')
 
     let video = window.innerWidth > 500 ? `<video src="${el.gif}" class="item-gif" loading="lazy" autoplay loop muted/> ` : ''
-
+    let badge = el.proximamente ? '<span class="badge text-bg-light position-absolute" style="top: 10px; left: 10px; z-index:50; padding: 6px">PRÓXIMAMENTE</span>' : ''
     div.innerHTML += `
+                          ${badge}
                           <div class="item-container">
-                            <a class="item-description" href="${el.link}" target="_blank">
+                          <a class="item-description" href="${el.link}" target=${el.proximamente ? '' : '_blank'}>
                               <div>
                                 <p class="titulo">${el.titulo}</p>
                                 <p class="realizacion">${el.realizacion}</p>

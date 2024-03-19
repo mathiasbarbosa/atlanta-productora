@@ -348,6 +348,7 @@ input:checked + .slider:before {
 }
 
 .item-galery{
+  position: relative;
   flex: 1 1 30%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -386,8 +387,8 @@ input:checked + .slider:before {
   animation-name: zoom-in-zoom-out;
   animation-duration: 2s;
   animation-timing-function: ease;  
-  animation-iteration-count:infinite
-  
+  animation-iteration-count:infinite;
+  position: absolute;
   
 }
 

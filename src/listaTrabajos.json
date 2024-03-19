@@ -3,7 +3,7 @@
     "titulo": "SALVATORES EP - SALVATORES",
     "anio": 2024,
     "realizacion": "REALIZACIÓN INTEGRAL",
-    "link": "",
+    "link": "#",
     "frame": "./media/Frames/SalvatoresEP.Still.webp",
     "gif": "./media/gifs/SalvatoresEP.webm",
     "proximamente": true
@@ -12,7 +12,7 @@
     "titulo": "PASTEL EP - JULY JAMES",
     "anio": 2024,
     "realizacion": "REALIZACIÓN INTEGRAL",
-    "link": "",
+    "link": "#",
     "frame": "./media/Frames/JulyJames.still.webp",
     "gif": "./media/gifs/JulyJames.webm",
     "proximamente": true
