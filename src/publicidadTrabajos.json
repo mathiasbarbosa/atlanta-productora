@@ -1,5 +1,62 @@
 [
   {
+    "trabajosP": "PASTELITO CAKE SHOP",
+    "descripcion": "Fotoproducto para anunciar su nueva carta en redes sociales.",
+    "multimedia": [
+      "./media/trabajosP/pastelitoCakeShop/pastelito1.webp",
+      "./media/trabajosP/pastelitoCakeShop/pastelito2.webp",
+      "./media/trabajosP/pastelitoCakeShop/pastelito3.webp"
+    ]
+  },
+  {
+    "trabajosP": "AGUSTINA GARCÍA MARTILLERA",
+    "descripcion": "Fotografía institucional y creación de videos publicitarios.",
+    "multimedia": [
+      "./media/trabajosP/agustinaGarcia/agmartillera7.webp",
+      "./media/trabajosP/agustinaGarcia/agmartillera2.webp",
+      "./media/trabajosP/agustinaGarcia/agmartillera3.webp",
+      "./media/trabajosP/agustinaGarcia/agmartillera4.webp",
+      "./media/trabajosP/agustinaGarcia/agmartillera5.webp",
+      "./media/trabajosP/agustinaGarcia/agmartillera6.webp",
+      "./media/trabajosP/agustinaGarcia/agmartillera1.webp"
+    ]
+  },
+  {
+    "trabajosP": "INSTABURGUER",
+    "descripcion": "Creación de contenido para la apertura del local",
+    "multimedia": [
+      "./media/trabajosP/instaburguer2/Reelinstaok.webm",
+      "./media/trabajosP/instaburguer2/reelrequiem.webm"
+    ]
+  },
+  {
+    "trabajosP": "LAS SIERRAS GRAFF",
+    "descripcion": "Cobertura audiovisual y fotográfica de los tres días de evento y posterior armado de reels para redes sociales",
+    "multimedia": ["./media/trabajosP/sierrasGraff/ReelSierrasOk.webm"]
+  },
+  {
+    "trabajosP": "ACERO EVENTOS",
+    "descripcion": "Grabación y edición de reels para mostrar el servicio integral que ofrece la empresa en materia de eventos",
+    "multimedia": [
+      "./media/trabajosP/aceroEventos/acero.webm",
+      "./media/trabajosP/aceroEventos/acero2.webm"
+    ]
+  },
+  {
+    "trabajosP": "VICTORIA MEZZINA",
+    "descripcion": "Grabación y edición de reels institucionales y fotografía corporativa",
+    "multimedia": [
+      "./media/trabajosP/victoriaMezzina/victoria1.webp",
+      "./media/trabajosP/victoriaMezzina/victoria2.webp",
+      "./media/trabajosP/victoriaMezzina/victoria3.webp",
+      "./media/trabajosP/victoriaMezzina/victoria4.webp",
+      "./media/trabajosP/victoriaMezzina/victoria5.webp",
+      "./media/trabajosP/victoriaMezzina/victoria6.webp",
+      "./media/trabajosP/victoriaMezzina/victoria7.webp",
+      "./media/trabajosP/victoriaMezzina/MEZZINAFINAL.webm"
+    ]
+  },
+  {
     "trabajosP": "ESTACIÓN VICTORIA",
     "descripcion": "Creación de contenido (fotos y reels) para la difusión en redes sociales del restaurante",
     "multimedia": [

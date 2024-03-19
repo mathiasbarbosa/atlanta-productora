@@ -73,7 +73,7 @@ const generarInterfazPubli = (arr) => {
         img.setAttribute('src', itemPubliMulti)
         carouselItem.append(img)
       } else {
-        carouselItem.innerHTML += `<video src="${itemPubliMulti}" class="carousel-item-imagen d-block"  autoplay loop muted controls width="430px"></video>`
+        carouselItem.innerHTML += `<video src="${itemPubliMulti}" class="carousel-item-imagen d-block"  autoplay loop muted  width="430px"></video>`
 
       }
 

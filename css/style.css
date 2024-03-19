@@ -124,7 +124,7 @@ body{
 }
 
 .container-nav{
-  width: 30%;
+  width: max-content;
   display: flex;
   align-items: center;
 }
@@ -241,7 +241,7 @@ input:checked + .slider:before {
 
 .container-text-home{
   position: absolute;
-  top: 30%; 
+  top: 15%; 
   display: flex;
   flex-direction: column;
   width: 100%;

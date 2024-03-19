@@ -1,5 +1,21 @@
 [
   {
+    "titulo": "INOCENTE-BONE",
+    "anio": 2024,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/oEtBy0mIvVg?si=OjgyshGq4S7b5ReQ",
+    "frame": "./media/Frames/Inocente.still.webp",
+    "gif": "./media/gifs/BONE.webm"
+  },
+  {
+    "titulo": "UN GRAN BESO - VIEJA MINGA",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/UST-fbizOyU?si=N8srxClfrXmbYNYm",
+    "frame": "./media/Frames/ungranbeso.still.webp",
+    "gif": "./media/gifs/Ungranbeso.webm"
+  },
+  {
     "titulo": "LA COMPLICADA - VENENOSOS ROLLS",
     "anio": 2023,
     "realizacion": "REALIZACIÓN INTEGRAL",
