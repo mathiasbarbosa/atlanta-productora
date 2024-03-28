@@ -1,155 +1,164 @@
 [
-  {
-    "trabajosP": "PASTELITO CAKE SHOP",
-    "descripcion": "Fotoproducto para anunciar su nueva carta en redes sociales.",
-    "multimedia": [
-      "./media/trabajosP/pastelitoCakeShop/pastelito1.webp",
-      "./media/trabajosP/pastelitoCakeShop/pastelito2.webp",
-      "./media/trabajosP/pastelitoCakeShop/pastelito3.webp"
-    ]
-  },
-  {
-    "trabajosP": "AGUSTINA GARCÍA MARTILLERA",
-    "descripcion": "Fotografía institucional y creación de videos publicitarios.",
-    "multimedia": [
-      "./media/trabajosP/agustinaGarcia/agmartillera7.webp",
-      "./media/trabajosP/agustinaGarcia/agmartillera2.webp",
-      "./media/trabajosP/agustinaGarcia/agmartillera3.webp",
-      "./media/trabajosP/agustinaGarcia/agmartillera4.webp",
-      "./media/trabajosP/agustinaGarcia/agmartillera5.webp",
-      "./media/trabajosP/agustinaGarcia/agmartillera6.webp",
-      "./media/trabajosP/agustinaGarcia/agmartillera1.webp"
-    ]
-  },
-  {
-    "trabajosP": "INSTABURGUER",
-    "descripcion": "Creación de contenido para la apertura del local",
-    "multimedia": [
-      "./media/trabajosP/instaburguer2/Reelinstaok.webm",
-      "./media/trabajosP/instaburguer2/reelrequiem.webm"
-    ]
-  },
-  {
-    "trabajosP": "LAS SIERRAS GRAFF",
-    "descripcion": "Cobertura audiovisual y fotográfica de los tres días de evento y posterior armado de reels para redes sociales",
-    "multimedia": ["./media/trabajosP/sierrasGraff/ReelSierrasOk.webm"]
-  },
-  {
-    "trabajosP": "ACERO EVENTOS",
-    "descripcion": "Grabación y edición de reels para mostrar el servicio integral que ofrece la empresa en materia de eventos",
-    "multimedia": [
-      "./media/trabajosP/aceroEventos/acero.webm",
-      "./media/trabajosP/aceroEventos/acero2.webm"
-    ]
-  },
-  {
-    "trabajosP": "VICTORIA MEZZINA",
-    "descripcion": "Grabación y edición de reels institucionales y fotografía corporativa",
-    "multimedia": [
-      "./media/trabajosP/victoriaMezzina/victoria1.webp",
-      "./media/trabajosP/victoriaMezzina/victoria2.webp",
-      "./media/trabajosP/victoriaMezzina/victoria3.webp",
-      "./media/trabajosP/victoriaMezzina/victoria4.webp",
-      "./media/trabajosP/victoriaMezzina/victoria5.webp",
-      "./media/trabajosP/victoriaMezzina/victoria6.webp",
-      "./media/trabajosP/victoriaMezzina/victoria7.webp",
-      "./media/trabajosP/victoriaMezzina/MEZZINAFINAL.webm"
-    ]
-  },
-  {
-    "trabajosP": "ESTACIÓN VICTORIA",
-    "descripcion": "Creación de contenido (fotos y reels) para la difusión en redes sociales del restaurante",
-    "multimedia": [
-      "./media/trabajosP/estacionVictoria/CUBAFEED15.webp",
-      "./media/trabajosP/estacionVictoria/CUBAFEDD23.webp",
-      "./media/trabajosP/estacionVictoria/CUBAFEED11.webp",
-      "./media/trabajosP/estacionVictoria/CUBAFEED20.webp",
-      "./media/trabajosP/estacionVictoria/CUBAFEED9.webp",
-      "./media/trabajosP/estacionVictoria/Reel1Final_HD.webm",
-      "./media/trabajosP/estacionVictoria/Reel2Final_HD.webm",
-      "./media/trabajosP/estacionVictoria/Reelcubafinal4.webm"
-    ]
-  },
-  {
-    "trabajosP": "ELEVEN FLOW",
-    "descripcion": "Book de fotos para presentar la nueva colección de gafas en las redes sociales.",
-    "multimedia": [
-      "./media/trabajosP/elevenFlow/fedefeed.webp",
-      "./media/trabajosP/elevenFlow/FeedAGOS2.webp",
-      "./media/trabajosP/elevenFlow/FeedAITI.webp",
-      "./media/trabajosP/elevenFlow/Pipifeed.webp",
-      "./media/trabajosP/elevenFlow/zapas.webp"
-    ]
-  },
-  {
-    "trabajosP": "INSTABURGER",
-    "descripcion": "Book de fotos para presentar el menú y su posterior difusión en redes sociales",
-    "multimedia": [
-      "./media/trabajosP/instaburger/INSTA15.webp",
-      "./media/trabajosP/instaburger/INSTA17.webp",
-      "./media/trabajosP/instaburger/INSTA20.webp",
-      "./media/trabajosP/instaburger/INSTA3.webp",
-      "./media/trabajosP/instaburger/INSTAb7.webp"
-    ]
-  },
-  {
-    "trabajosP": "NICO PADILLA",
-    "descripcion": "Book de fotos para las redes del artista y posterior conformado de EPK.",
-    "multimedia": [
-      "./media/trabajosP/nico_padilla/Nico1-10.webp",
-      "./media/trabajosP/nico_padilla/Nico1-16.webp",
-      "./media/trabajosP/nico_padilla/Nico1-4.webp"
-    ]
-  },
-  {
-    "trabajosP": "PROSPERO RAÚL CANTÓN",
-    "descripcion": "Book de fotos para la presentación de su nuevo disco 'Ebbo', presentando el concepto del mismo en redes sociales y flyers de eventos del artista.",
-    "multimedia": [
-      "./media/trabajosP/prospero/prospero1-8171.webp",
-      "./media/trabajosP/prospero/prospero12c-04239.webp",
-      "./media/trabajosP/prospero/prospero2-8155.webp",
-      "./media/trabajosP/prospero/prospero3-8142.webp",
-      "./media/trabajosP/prospero/prospero9-8114.webp",
-      "./media/trabajosP/prospero/prosperox-8027.webp"
-    ]
-  },
-  {
-    "trabajosP": "MARIO GONZÁLEZ",
-    "descripcion": "Book de fotos para las redes sociales del artista.",
-    "multimedia": [
-      "./media/trabajosP/marioGonzalez/2.webp",
-      "./media/trabajosP/marioGonzalez/22.webp",
-      "./media/trabajosP/marioGonzalez/4.webp",
-      "./media/trabajosP/marioGonzalez/6.webp"
-    ]
-  },
-  {
-    "trabajosP": "VENENO",
-    "descripcion": "Book y diseño de tapa para el nuevo disco del artista",
-    "multimedia": [
-      "./media/trabajosP/veneno/2.webp",
-      "./media/trabajosP/veneno/3.webp",
-      "./media/trabajosP/veneno/4.webp",
-      "./media/trabajosP/veneno/9.webp"
-    ]
-  },
-  {
-    "trabajosP": "BL FREESTYLE",
-    "descripcion": "Cobertura y grabación del evento.",
-    "multimedia": [
-      "./media/trabajosP/blfreestyle/reelblFINAL.webm",
-      "./media/trabajosP/blfreestyle/secuencia01_2.webm"
-    ]
-  },
-  {
-    "trabajosP": "NAZA GUTIERREZ",
-    "descripcion": "Book de fotos personal",
-    "multimedia": [
-      "./media/trabajosP/naza_guitierrez/nazabook1.webp",
-      "./media/trabajosP/naza_guitierrez/nazabook2.webp",
-      "./media/trabajosP/naza_guitierrez/nazapan3fin.webp",
-      "./media/trabajosP/naza_guitierrez/nazasuperfinal2.webp",
-      "./media/trabajosP/naza_guitierrez/nazasuperfinal3.webp"
-    ]
-  }
+	{
+		"trabajosP": "CABAÑA ATARDECER SERRANO",
+		"descripcion": "Fotografía para publicitar la cabaña en redes sociales.",
+		"multimedia": [
+			"./media/trabajosP/cabania/cabania1.webp",
+			"./media/trabajosP/cabania/cabania2.webp",
+			"./media/trabajosP/cabania/cabania3.webp",
+			"./media/trabajosP/cabania/cabania4.webp"
+		]
+	},
+	{
+		"trabajosP": "CLUB EDAL",
+		"descripcion": "Creación de contenido para las redes sociales del club.",
+		"multimedia": [
+			"./media/trabajosP/edal/ReelFutbol_2.webm",
+			"./media/trabajosP/edal/edal1.webp",
+			"./media/trabajosP/edal/edal2.webp",
+			"./media/trabajosP/edal/edal3.webp"
+		]
+	},
+	{
+		"trabajosP": "PASTELITO CAKE SHOP",
+		"descripcion": "Fotoproducto para anunciar su nueva carta en redes sociales.",
+		"multimedia": [
+			"./media/trabajosP/pastelitoCakeShop/pastelito1.webp",
+			"./media/trabajosP/pastelitoCakeShop/pastelito2.webp",
+			"./media/trabajosP/pastelitoCakeShop/pastelito3.webp"
+		]
+	},
+	{
+		"trabajosP": "AGUSTINA GARCÍA MARTILLERA",
+		"descripcion": "Fotografía institucional y creación de videos publicitarios.",
+		"multimedia": [
+			"./media/trabajosP/agustinaGarcia/agmartillera7.webp",
+			"./media/trabajosP/agustinaGarcia/agmartillera2.webp",
+			"./media/trabajosP/agustinaGarcia/agmartillera3.webp",
+			"./media/trabajosP/agustinaGarcia/agmartillera4.webp",
+			"./media/trabajosP/agustinaGarcia/agmartillera5.webp",
+			"./media/trabajosP/agustinaGarcia/agmartillera6.webp",
+			"./media/trabajosP/agustinaGarcia/agmartillera1.webp"
+		]
+	},
+	{
+		"trabajosP": "INSTABURGUER",
+		"descripcion": "Creación de contenido para la apertura del local",
+		"multimedia": [
+			"./media/trabajosP/instaburguer2/Reelinstaok.webm",
+			"./media/trabajosP/instaburguer2/reelrequiem.webm"
+		]
+	},
+	{
+		"trabajosP": "LAS SIERRAS GRAFF",
+		"descripcion": "Cobertura audiovisual y fotográfica de los tres días de evento y posterior armado de reels para redes sociales",
+		"multimedia": ["./media/trabajosP/sierrasGraff/ReelSierrasOk.webm"]
+	},
+	{
+		"trabajosP": "ACERO EVENTOS",
+		"descripcion": "Grabación y edición de reels para mostrar el servicio integral que ofrece la empresa en materia de eventos",
+		"multimedia": [
+			"./media/trabajosP/aceroEventos/acero.webm",
+			"./media/trabajosP/aceroEventos/acero2.webm"
+		]
+	},
+	{
+		"trabajosP": "VICTORIA MEZZINA",
+		"descripcion": "Grabación y edición de reels institucionales y fotografía corporativa",
+		"multimedia": [
+			"./media/trabajosP/victoriaMezzina/victoria1.webp",
+			"./media/trabajosP/victoriaMezzina/victoria2.webp",
+			"./media/trabajosP/victoriaMezzina/victoria3.webp",
+			"./media/trabajosP/victoriaMezzina/victoria4.webp",
+			"./media/trabajosP/victoriaMezzina/victoria5.webp",
+			"./media/trabajosP/victoriaMezzina/victoria6.webp",
+			"./media/trabajosP/victoriaMezzina/victoria7.webp",
+			"./media/trabajosP/victoriaMezzina/MEZZINAFINAL.webm"
+		]
+	},
+	{
+		"trabajosP": "ESTACIÓN VICTORIA",
+		"descripcion": "Creación de contenido (fotos y reels) para la difusión en redes sociales del restaurante",
+		"multimedia": [
+			"./media/trabajosP/estacionVictoria/CUBAFEED15.webp",
+			"./media/trabajosP/estacionVictoria/CUBAFEDD23.webp",
+			"./media/trabajosP/estacionVictoria/CUBAFEED11.webp",
+			"./media/trabajosP/estacionVictoria/CUBAFEED20.webp",
+			"./media/trabajosP/estacionVictoria/CUBAFEED9.webp",
+			"./media/trabajosP/estacionVictoria/Reel1Final_HD.webm",
+			"./media/trabajosP/estacionVictoria/Reel2Final_HD.webm",
+			"./media/trabajosP/estacionVictoria/Reelcubafinal4.webm"
+		]
+	},
+	{
+		"trabajosP": "ELEVEN FLOW",
+		"descripcion": "Book de fotos para presentar la nueva colección de gafas en las redes sociales.",
+		"multimedia": [
+			"./media/trabajosP/elevenFlow/fedefeed.webp",
+			"./media/trabajosP/elevenFlow/FeedAGOS2.webp",
+			"./media/trabajosP/elevenFlow/FeedAITI.webp",
+			"./media/trabajosP/elevenFlow/Pipifeed.webp",
+			"./media/trabajosP/elevenFlow/zapas.webp"
+		]
+	},
+	{
+		"trabajosP": "INSTABURGER",
+		"descripcion": "Book de fotos para presentar el menú y su posterior difusión en redes sociales",
+		"multimedia": [
+			"./media/trabajosP/instaburger/INSTA15.webp",
+			"./media/trabajosP/instaburger/INSTA17.webp",
+			"./media/trabajosP/instaburger/INSTA20.webp",
+			"./media/trabajosP/instaburger/INSTA3.webp",
+			"./media/trabajosP/instaburger/INSTAb7.webp"
+		]
+	},
+	{
+		"trabajosP": "NICO PADILLA",
+		"descripcion": "Book de fotos para las redes del artista y posterior conformado de EPK.",
+		"multimedia": [
+			"./media/trabajosP/nico_padilla/Nico1-10.webp",
+			"./media/trabajosP/nico_padilla/Nico1-16.webp",
+			"./media/trabajosP/nico_padilla/Nico1-4.webp"
+		]
+	},
+	{
+		"trabajosP": "PROSPERO RAÚL CANTÓN",
+		"descripcion": "Book de fotos para la presentación de su nuevo disco 'Ebbo', presentando el concepto del mismo en redes sociales y flyers de eventos del artista.",
+		"multimedia": [
+			"./media/trabajosP/prospero/prospero1-8171.webp",
+			"./media/trabajosP/prospero/prospero12c-04239.webp",
+			"./media/trabajosP/prospero/prospero2-8155.webp",
+			"./media/trabajosP/prospero/prospero3-8142.webp",
+			"./media/trabajosP/prospero/prospero9-8114.webp",
+			"./media/trabajosP/prospero/prosperox-8027.webp"
+		]
+	},
+	{
+		"trabajosP": "MARIO GONZÁLEZ",
+		"descripcion": "Book de fotos para las redes sociales del artista.",
+		"multimedia": [
+			"./media/trabajosP/marioGonzalez/2.webp",
+			"./media/trabajosP/marioGonzalez/22.webp",
+			"./media/trabajosP/marioGonzalez/4.webp",
+			"./media/trabajosP/marioGonzalez/6.webp"
+		]
+	},
+	{
+		"trabajosP": "VENENO",
+		"descripcion": "Book y diseño de tapa para el nuevo disco del artista",
+		"multimedia": [
+			"./media/trabajosP/veneno/2.webp",
+			"./media/trabajosP/veneno/3.webp",
+			"./media/trabajosP/veneno/4.webp",
+			"./media/trabajosP/veneno/9.webp"
+		]
+	},
+	{
+		"trabajosP": "BL FREESTYLE",
+		"descripcion": "Cobertura y grabación del evento.",
+		"multimedia": [
+			"./media/trabajosP/blfreestyle/reelblFINAL.webm",
+			"./media/trabajosP/blfreestyle/secuencia01_2.webm"
+		]
+	}
 ]
