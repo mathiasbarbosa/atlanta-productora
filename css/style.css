@@ -436,6 +436,10 @@ input:checked + .slider:before {
 }
 
 
+#publicidad{
+  display: block !important;
+}
+
 #galery-publicidad{
   width: 100%;
   display: flex;
@@ -1095,7 +1099,7 @@ footer{
 @media screen and (min-width: 2000px){
 
   #logoHome{
-    width: 15%;
+    width: 12%;
   }
 
   .nav-list-item > a{
@@ -1103,8 +1107,12 @@ footer{
   }
   .container-text-home{
     height: 700px;
-    top: 20%;
-    gap: 10px;
+    top: 13%;
+    gap: 1rem;
+  }
+
+  .container-text-home > ul{
+    height: auto;
   }
   .container-text-home > ul > li > a {
     font-size: 4rem;
