@@ -152,10 +152,6 @@ const showNav = () => {
   let scrollPosition = window.scrollY
 
   let referencePosition = referenceShowNav.offsetTop
-  console.log(referencePosition);
-  console.log(scrollPosition);
-  console.log(referenceShowNav.offsetHeight);
-  
 
   let showPosition = referencePosition - referenceShowNav.offsetHeight
 
