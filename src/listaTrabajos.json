@@ -1,11 +1,117 @@
 [
   {
+    "titulo": "TRIUNFO - CAMPOLOOP",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "nuevo": true,
+    "link": "https://youtu.be/4PMDjwB8ENk?si=SfR3OkbutYX58m_X",
+    "frame": "./media/Frames/Trinufo_Still.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303440/atlanta/TRIUNFO_iwlzpi.webm"
+  },
+  {
+    "titulo": "GRITO GAUCHA - CAMPOLOOP",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "nuevo": true,
+    "link": "https://youtu.be/f8dQeI8foEY?si=USVIn0w6kKe_PPfY",
+    "frame": "./media/Frames/grito.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303443/atlanta/Grito.Gaucha_jzmo0y.webm"
+  },
+  {
+    "titulo": "UN GRAN BESO - VIEJA MINGA",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/UST-fbizOyU?si=N8srxClfrXmbYNYm",
+    "frame": "./media/Frames/un.gran.beso.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303387/atlanta/Ungranbeso_af3eye.webm"
+  },
+  {
+    "titulo": "VOLIGOMA - ALSET",
+    "anio": 2023,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/U3RlrEMp22g ",
+    "frame": "./media/Frames/voligoma.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303394/atlanta/LOOPVoligoma1_nwhxtk.webm"
+  },
+  {
+    "titulo": "SIN PIEDAD - KALI CALVA",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/XGcx2kxBdsY?si=mm1mmKe8kDoUl7Wa",
+    "frame": "./media/Frames/sin.piedad.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303388/atlanta/SIN.PIEDAD_dkaeuk.webm"
+  },
+  {
+    "titulo": "MARCIANO - NB",
+    "anio": 2021,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/tQege5J18cI",
+    "frame": "./media/Frames/marciano.webp",
+    "gif": "./media/gifs/nb.webm"
+  },
+  {
+    "titulo": "1770 - GAMMA MOOD",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/XuzV6w7vacE?si=6PH1NkmVL3ogiqSu",
+    "frame": "./media/Frames/1770_Still.webp",
+    "gif": "./media/gifs/1770.webm"
+  },
+  {
+    "titulo": "MUERO CORONAO - CHINO BERMAY",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/ZDSvxe6kYLY?si=i6o0dvjeRPWi9xeg",
+    "frame": "./media/Frames/Muerocoronao_Still.webp",
+    "gif": "./media/gifs/MUEROCORONAO.webm"
+  },
+  {
+    "titulo": "FINGIAS - ÚLTIMO BONDI A SANS SOUCI",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/ApGfz3PGdJI?si=iGNLczs25lGLdhrZ",
+    "frame": "./media/Frames/Fingias_Still.webp",
+    "gif": "./media/gifs/Fingias.webm"
+  },
+  {
+    "titulo": "NUESTROS ANHELOS - BATT PEDRAZA",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/rh8wvTk16pE?si=3aCpgj4IXrlBhcMW",
+    "frame": "./media/Frames/Nuestrosanhelos_Still.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303444/atlanta/Nuestrosanhelos_xguufp.webm"
+  },
+  {
+    "titulo": "MIL&UNA NOCHES - NEVEN",
+    "anio": 2025,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/V8fBaRiU2pU?si=LGZ5Fu7CVpAU3pja",
+    "frame": "./media/Frames/MIL.&.UNA.NOCHES_Still.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303528/atlanta/MIL._.UNA.NOCHES_upfdz7.webm"
+  },
+  {
+    "titulo": "GURÚ - UHRY27",
+    "anio": 2024,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/LJlUYTDWafk?si=5wRbm1n8nP_G67OE",
+    "frame": "./media/Frames/Guru_Still.webp",
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303525/atlanta/GURU_e06kwl.webm"
+  },
+  {
+    "titulo": "NO ME OLVIDO - VALEN TFC",
+    "anio": 2024,
+    "realizacion": "REALIZACIÓN INTEGRAL",
+    "link": "https://youtu.be/mxmLItpnytk?si=o9cQnwzX569PuIkr",
+    "frame": "./media/Frames/nomeolvido_Still.webp",
+    "gif": "./media/gifs/nomeolvido.webm"
+  },
+  {
     "titulo": "SALVATORES EP - SALVATORES",
     "anio": 2024,
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/xHbR5jhgl2A?si=mkPFQLfEZOurq2I6",
     "frame": "./media/Frames/SalvatoresEP.Still.webp",
-    "gif": "./media/gifs/SalvatoresEP.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303385/atlanta/SalvatoresEP_nwvqwv.webm"
   },
   {
     "titulo": "PASTEL EP - JULY JAMES",
@@ -13,7 +119,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/AecI0JZFSW4?si=aihN6W5iv47zD6WD",
     "frame": "./media/Frames/JulyJames.still.webp",
-    "gif": "./media/gifs/JulyJames.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303385/atlanta/JulyJames_amjogs.webm"
   },
   {
     "titulo": "VISTA DE ÁGUILA - NEVEN Y UHRY27",
@@ -21,7 +127,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/O63WQ1-T8Ek?si=A5jTGwzMmeHB1elj",
     "frame": "./media/Frames/NEVEN.Still.webp",
-    "gif": "./media/gifs/neven.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303442/atlanta/neven_gsyyu3.webm"
   },
   {
     "titulo": "INOCENTE-BONE",
@@ -29,15 +135,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/oEtBy0mIvVg?si=OjgyshGq4S7b5ReQ",
     "frame": "./media/Frames/Inocente.still.webp",
-    "gif": "./media/gifs/BONE.webm"
-  },
-  {
-    "titulo": "UN GRAN BESO - VIEJA MINGA",
-    "anio": 2023,
-    "realizacion": "REALIZACIÓN INTEGRAL",
-    "link": "https://youtu.be/UST-fbizOyU?si=N8srxClfrXmbYNYm",
-    "frame": "./media/Frames/ungranbeso.still.webp",
-    "gif": "./media/gifs/Ungranbeso.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303382/atlanta/BONE_yof4i2.webm"
   },
   {
     "titulo": "LA COMPLICADA - VENENOSOS ROLLS",
@@ -45,7 +143,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/_fKV38JJGB4?si=zqnvnerkGdVFfqvB",
     "frame": "./media/Frames/Lacomplicada.still.webp",
-    "gif": "./media/gifs/LaComplicada.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303384/atlanta/LaComplicada_hjdkyt.webm"
   },
   {
     "titulo": "EL CAFÉ DE LA VIDA - LAS CARMELITAS",
@@ -53,7 +151,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/zuymYvT3egE?si=cmDtzokZV1Cr8iZq",
     "frame": "./media/Frames/Elcafedelavida.still.webp",
-    "gif": "./media/gifs/Elcafedelavida.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303441/atlanta/Elcafedelavida_woq9qw.webm"
   },
   {
     "titulo": "CUADROS - FRAN MARGUERITTE",
@@ -61,7 +159,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/_-4LDvLaYMU?si=yM6Ec2lBjXoCEnZw",
     "frame": "./media/Frames/EPFranMargueritte.Still.webp",
-    "gif": "./media/gifs/EPFranMargueritte.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303440/atlanta/EPFranMargueritte_i3ykq9.webm"
   },
   {
     "titulo": "CAFECITO - JAIEL",
@@ -69,7 +167,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/YIV26-mujCE?si=XyYFLo58BM3X_Att",
     "frame": "./media/Frames/Cafecito.Still.webp",
-    "gif": "./media/gifs/Cafecito.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303530/atlanta/Cafecito_qd0rsh.webm"
   },
   {
     "titulo": "LINDO DÍA - HOUSEMAN",
@@ -77,15 +175,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/Q8Kz4fDjOds",
     "frame": "./media/Frames/lindo.dia.still.webp",
-    "gif": "./media/gifs/Lindo.Dia.webm"
-  },
-  {
-    "titulo": "VOLIGOMA - ALSET",
-    "anio": 2023,
-    "realizacion": "REALIZACIÓN INTEGRAL",
-    "link": "https://youtu.be/U3RlrEMp22g ",
-    "frame": "./media/Frames/Voligoma.Still.webp",
-    "gif": "./media/gifs/LOOPVoligoma1.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303529/atlanta/Lindo.Dia_racgs6.webm"
   },
   {
     "titulo": "CICLOS - SALVATORES",
@@ -93,7 +183,7 @@
     "realizacion": "POSTPRODUCCIÓN",
     "link": "https://youtu.be/_9SeohqoRkk",
     "frame": "./media/Frames/ciclos.still.webp",
-    "gif": "./media/gifs/LOOPCiclos.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303442/atlanta/LOOPCiclos_r3bgp1.webm"
   },
   {
     "titulo": "TIBURONES - BLACK",
@@ -101,7 +191,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/mH7mAkEmurQ",
     "frame": "./media/Frames/tiburones.still1.webp",
-    "gif": "./media/gifs/LOOPTiburones.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303529/atlanta/LOOPTiburones_moixgd.webm"
   },
   {
     "titulo": "LA PAUTA - CHAINO SWING",
@@ -133,7 +223,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/K1ifWhQVQVc",
     "frame": "./media/Frames/Salvatores.Still2.webp",
-    "gif": "./media/gifs/Salvatores.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303386/atlanta/Salvatores_hy16xh.webm"
   },
   {
     "titulo": "ESQUINA AZUL - FRANCISCO MARGUERITTE",
@@ -142,14 +232,6 @@
     "link": "https://youtu.be/P8Uij-EyAAU",
     "frame": "./media/Frames/Esquina.Margerite.Still.webp",
     "gif": "./media/gifs/EsquinaAzul.webm"
-  },
-  {
-    "titulo": "MARCIANO- NB",
-    "anio": 2021,
-    "realizacion": "REALIZACIÓN INTEGRAL",
-    "link": "https://youtu.be/tQege5J18cI",
-    "frame": "./media/Frames/Marciano.NB.Still.webp",
-    "gif": "./media/gifs/nb.webm"
   },
   {
     "titulo": "MATANDO LA LIGA - LOGAN",
@@ -165,7 +247,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/YXNi5tXy-q4",
     "frame": "./media/Frames/Enlasredes.Alset.Still.webp",
-    "gif": "./media/gifs/EnLasRedes.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303524/atlanta/EnLasRedes_oh7wzd.webm"
   },
   {
     "titulo": "LOS PAPELES - LOGAN",
@@ -197,7 +279,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/vGdG8yRRzl0",
     "frame": "./media/Frames/Lenny.Theo.Still.webp",
-    "gif": "./media/gifs/Lenny.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303443/atlanta/Lenny_kf9noz.webm"
   },
   {
     "titulo": "CICATRICES - FIBO",
@@ -205,7 +287,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/ybkGkjULxi8",
     "frame": "./media/Frames/Cicatrices.Fibo.Still.webp",
-    "gif": "./media/gifs/Cicatrices.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303525/atlanta/Cicatrices_fehaxz.webm"
   },
   {
     "titulo": "EL VISTO - HOUSEMAN",
@@ -213,7 +295,7 @@
     "realizacion": "REALIZACIÓN INTEGRAL",
     "link": "https://youtu.be/pz5Xl2_xXmI",
     "frame": "./media/Frames/Elvisto.Hsmn.Still.webp",
-    "gif": "./media/gifs/ElVisto.webm"
+    "gif": "https://res.cloudinary.com/dsubgzrmc/video/upload/v1772303526/atlanta/ElVisto_qatyfc.webm"
   },
   {
     "titulo": "MUCHA MECHA - CONTRABANDO CREW",

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -89,7 +89,9 @@
           alt="logo de Atlanta"
         />
       </a>
-      <h1 class="nav-title">ATLANTA</h1>
+      <div class="container-nav-title">
+        <h1 class="nav-title">ATLANTA</h1>
+      </div>
       <!-- </div> -->
 
       <nav class="container-nav">
@@ -154,13 +156,35 @@
         id="home"
       >
         <video
-          src="https://res.cloudinary.com/dsubgzrmc/video/upload/v1714144989/vdlhw1idegwm6azthrjg.webm"
+          src="https://res.cloudinary.com/dsubgzrmc/video/upload/v1772299169/pagina_pcn8t8.webm"
           autoplay
           loop
           muted
           width="100%"
           poster="./media/Frames/Marciano.NB.Still2.webp"
         ></video>
+
+        <div class="container-text-home">
+          <img src="./media/logoCalado.webp" alt="Logo Atlanta, Productora audiovisual" id="logoHome">
+          <ul>
+            <li><a href="#galery-videos">VIDEOCLIPS</a></li>
+            <li><a href="#trabajos_ig">PUBLICIDAD</a></li>
+            <li><a href="#nosotros">NOSOTROS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+          </ul>
+        </div>
+        <div class="container-contact-social-home">
+        <div class="container-contact-social-items">
+          <a href="https://www.instagram.com/atlanta.av/" target="_blank" rel="noopener noreferrer"><i
+              class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/Atlanta-Audiovisual-113471170828426" target="_blank"
+            rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.tiktok.com/@atlanta.audiovisual" target="_blank" rel="noopener noreferrer"><i
+              class="bi bi-tiktok"></i></a>
+          <a href="https://www.youtube.com/channel/UCN-XsOXEym98Aax1hurJbxQ" target="_blank"
+            rel="noopener noreferrer"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
       </section>
 
       <h2
@@ -206,7 +230,6 @@
           <div class="nosotros-galery">
             <div
               class="nosotros-galery-item"
-              data-aos="zoom-in-up"
               style="background-image: url(./media/integrantes/agus.webp)"
             >
               <div class="item-container">
@@ -225,7 +248,6 @@
 
             <div
               class="nosotros-galery-item"
-              data-aos="zoom-in-up"
               style="background-image: url(./media/integrantes/gaston.webp)"
             >
               <div class="item-container">
@@ -244,7 +266,6 @@
 
             <div
               class="nosotros-galery-item"
-              data-aos="zoom-in-up"
               style="background-image: url(./media/integrantes/naza.webp)"
             >
               <div class="item-container">
@@ -263,7 +284,6 @@
 
             <div
               class="nosotros-galery-item"
-              data-aos="zoom-in-up"
               style="background-image: url(./media/integrantes/nahuel.webp)"
             >
               <div class="item-container">
@@ -438,23 +458,13 @@
           alt="slide de carousel contacto"
         />
 
-        <div
-          class="container-contact-wpp"
-          data-aos="zoom-in-up"
-          data-aos-delay="250"
-        >
-          <div
-            class="container-contact-text"
-            data-aos="zoom-in-down"
-          >
+        <div class="container-contact-wpp">
+          <div class="container-contact-text">
             <h3>CONTACTANOS</h3>
             <!-- <p id="text-animation">ENVIA UN MAIL</p> -->
             <p>ENVIA UN MENSAJE</p>
           </div>
-          <div
-            class="container-contact-button"
-            data-aos="zoom-in-down"
-          >
+          <div class="container-contact-button">
             <a
               href="https://wa.me/message/3GNLG7OVBZAUN1"
               target="_blank"
@@ -463,10 +473,7 @@
             >
           </div>
         </div>
-        <div
-          class="container-contact-social-items-contact"
-          data-aos="zoom-in-down"
-        >
+        <div class="container-contact-social-items-contact">
           <a
             href="https://www.instagram.com/atlanta.av/"
             target="_blank"
@@ -503,10 +510,10 @@
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>
+    </script> -->
     <script src="./src/index.js"></script>
     <script>
       if ('serviceWorker' in navigator) {

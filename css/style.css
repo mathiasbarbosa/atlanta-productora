@@ -25,7 +25,7 @@ body {
   background-color: var(--primary-color);
 }
 .container-header {
-  z-index: 3;
+  z-index: 15;
   background-color: var(--primary-color);
   justify-content: space-between;
   display: flex;
@@ -35,7 +35,9 @@ body {
   top: 0px;
   align-items: center;
   opacity: 1;
-  transition: opacity 0.3s ease-in-out, display 0s 0.6s;
+  transition:
+    opacity 0.3s ease-in-out,
+    display 0s 0.6s;
 }
 
 .hidden {
@@ -59,12 +61,20 @@ body {
   width: 5rem;
 }
 
+.container-nav-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav-title {
   font-family: 'aldo';
   font-size: 3rem;
   color: #ffffff;
-  flex: 1;
   text-align: center;
+  margin-left: 4rem;
+  margin-bottom: 0;
 }
 
 /* menu responsive */
@@ -580,7 +590,8 @@ input:checked + .slider:before {
   white-space: nowrap;
   border-right: 0.15em solid #ffffff;
 
-  animation: typing 3s steps(17) 1s infinite normal both,
+  animation:
+    typing 3s steps(17) 1s infinite normal both,
     blink 1s steps(1) infinite;
 }
 
@@ -872,7 +883,7 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 1000px) {
   .container-header {
-    margin: 20px 5px;
+    margin: 20px 0px;
   }
 }
 
@@ -910,9 +921,10 @@ footer {
   .container-contact-social-home {
     display: none;
   }
+ 
 }
 
-@media screen and (min-width: 320px) and (max-width: 420px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .nav-title {
     font-size: 2.3rem;
   }
@@ -921,6 +933,13 @@ footer {
   }
   .container-header > a {
     width: 20%;
+  }
+   #galery-trabajos_ig{
+    padding: 0 0.625rem;
+  }
+  .galery-trabajos_ig-item{
+    padding: 0 0;
+    width: 100%;
   }
 }
 

@@ -12,15 +12,18 @@ const generarInterfaz = (arr) => {
     let div = document.createElement('div');
     div.classList.add('item-galery');
     div.style.backgroundImage = `url(${el.frame})`;
-    div.setAttribute('data-aos', 'zoom-in-up');
+    // div.setAttribute('data-aos', 'zoom-in-up');
 
     let video =
       window.innerWidth > 500
         ? `<video src="${el.gif}" class="item-gif" loading="lazy" autoplay loop muted poster="${el.frame}"/> `
         : '';
-    let badge = el.proximamente
-      ? '<span class="badge text-bg-light position-absolute" style="top: 10px; left: 10px; z-index:50; padding: 6px">PRÓXIMAMENTE</span>'
-      : '';
+    let badge =
+      el.proximamente || el.nuevo
+        ? `<span class="badge text-bg-light position-absolute" style="top: 10px; left: 10px; z-index:10; padding: 6px">${
+            el.proximamente ? 'PRÓXIMAMENTE' : 'NUEVO'
+          }</span>`
+        : '';
     div.innerHTML += `
                           ${badge}
                           <div class="item-container">
@@ -49,8 +52,8 @@ const generarInterfazPubli = (arr) => {
   arr.map((item, i) => {
     let containerPubli = document.createElement('div');
     containerPubli.classList.add('galery-trabajos_ig-item');
-    containerPubli.setAttribute('data-aos', 'zoom-in-up');
-    containerPubli.setAttribute('data-aos-delay', 250);
+    // containerPubli.setAttribute('data-aos', 'zoom-in-up');
+    // containerPubli.setAttribute('data-aos-delay', 250);
 
     let carouselSlide = document.createElement('div');
     carouselSlide.classList.add('carousel', 'slide');
@@ -143,6 +146,35 @@ const generarInterfazPubli = (arr) => {
   });
   containerGalery.append(fragment);
 };
+
+
+const showNav = () => {
+  let scrollPosition = window.scrollY
+
+  let referencePosition = referenceShowNav.offsetTop
+  console.log(referencePosition);
+  console.log(scrollPosition);
+  console.log(referenceShowNav.offsetHeight);
+  
+
+  let showPosition = referencePosition - referenceShowNav.offsetHeight
+
+
+  if (scrollPosition >= showPosition) {
+    header.classList.remove('hidden')
+    // header.style.display = 'none'
+  } else {
+    header.classList.add('hidden')
+    // header.style.display = 'flex'
+  }
+}
+
+if (viewport >= 1000) {
+  header.classList.add('hidden')
+  window.addEventListener('scroll', showNav)
+}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
   fetch('./src/listaTrabajos.json')
